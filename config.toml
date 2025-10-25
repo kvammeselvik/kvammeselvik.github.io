@@ -1,0 +1,10 @@
+baseURL = "https://kvammeselvik.github.io/"
+languageCode = "no-nn"
+title = "Kvamme/Selvik"
+theme = "mainroad"
+publishDir = "public"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = true
