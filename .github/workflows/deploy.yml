@@ -1,9 +1,9 @@
-name: Deploy Hugo site to GitHub Pages
+name: Deploy Hugo site to main branch
 
 on:
   push:
     branches:
-      - main
+      - main               # trigger when you push to main
 
 jobs:
   build-deploy:
@@ -24,8 +24,10 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy to main branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.HEIMEMASKIN }}
           publish_dir: ./public
+          publish_branch: main
+          commit_message: "Deploy Hugo site (auto‑generated)"
