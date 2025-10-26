@@ -1,6 +1,6 @@
 #+TITLE: Mitt første blog-innlegg
 #+DATE: 2025-10-25
-#+HUGO_TAGS: oppstart, matematikk
+#+HUGO_TAGS: 'oppstart', 'matematikk'
 #+HUGO_SECTION: posts
 #+HUGO_BASE_DIR: //wsl.localhost/Ubuntu-22.04/home/aasmund/kvammeselvik
 
