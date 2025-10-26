@@ -3,9 +3,33 @@ languageCode = "no-nn"
 title = "Kvamme/Selvik"
 theme = "mainroad"
 publishDir = "public"
-paginate = "10"
+
 
 [params]
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
+  description = "On livet i familien Kvamme/Selvik. Kanskje mest om Aasmund." # Site description. Used in meta description
+  toc = true # Enable Table of Contents
+  pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
+  dateformat = "2006-01-02" # Change the format of dates
+  mathjax = true # Enable MathJax
+  mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
+  mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
+  math = true
+  
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\\[', '\\]'], ['$$', '$$']]
+          inline = [['\\(', '\\)']]
