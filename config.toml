@@ -18,8 +18,8 @@ publishDir = "public"
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
 
 [Params.sidebar]
-  # home = "right"
-  # list = "right"
-  # single = "right"
-  # # Enable widgets in given order
-  # widgets = ["search", "recent", "categories", "taglist"]
+  home = "right"
+  list = "right"
+  single = "right"
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist"]

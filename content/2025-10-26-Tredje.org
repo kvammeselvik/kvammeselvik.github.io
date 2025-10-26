@@ -1,7 +1,0 @@
-#+TITLE: Tredje forsøk
-#+DATE: [2025-10-26 søn. 15:21]
-#+HUGO_SECTION: posts
-#+HUGO_BASE_DIR: //wsl.localhost/Ubuntu-22.04/home/aasmund/kvammeselvik
-
-Noko rart har skjedd.
-

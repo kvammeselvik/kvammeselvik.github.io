@@ -1,9 +1,0 @@
-#+TITLE: Mitt første blog-innlegg
-#+DATE: 2025-10-25
-#+HUGO_SECTION: posts
-#+HUGO_BASE_DIR: //wsl.localhost/Ubuntu-22.04/home/aasmund/kvammeselvik
-
-Første innlegg, *skrevet* i Emacs orgmode med hjelp av Hugo.
-
-* Tankar
-Dette ser /bra/ ut. 

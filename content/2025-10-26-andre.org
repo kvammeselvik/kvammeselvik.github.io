@@ -1,7 +1,0 @@
-#+TITLE: Mitt andre innlegg
-#+DATE: [2025-10-26 søn. 15:12]
-#+HUGO_SECTION: posts
-#+HUGO_BASE_DIR: //wsl.localhost/Ubuntu-22.04/home/aasmund/kvammeselvik
-
-Gjekk dette bra? 
-
