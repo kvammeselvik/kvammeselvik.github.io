@@ -10,6 +10,9 @@ publishDir = "public"
   ShowReadingTime = true
   ShowShareButtons = true
 
+[Params.logo]
+  image = "img/kvammeselvik_logo.png" # Logo image. Path relative to "static"
+
 [Params]
   description = "On livet i familien Kvamme/Selvik. Kanskje mest om Aasmund." # Site description. Used in meta description
   # copyright = "John Doe" # Footer copyright holder, otherwise will use site title
@@ -29,3 +32,11 @@ publishDir = "public"
   googleFontsLink = "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" # Load Google Fonts
   # customCSS = ["css/custom.css"] # Include custom CSS files
   # customJS = ["js/custom.js"] # Include custom JS files
+
+
+[Params.sidebar]
+  home = "right" # Configure layout for home page
+  list = "left"  # Configure layout for list pages
+  single = false # Configure layout for single pages
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist", "social", "languages"]
