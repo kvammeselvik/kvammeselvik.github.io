@@ -26,7 +26,7 @@ publishDir = "public"
   # mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
   mathjaxPath = "https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
   # mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
-  math = true
+  # math = true
   
 [Params.sidebar]
   home = "right"

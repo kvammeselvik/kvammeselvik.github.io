@@ -11,4 +11,4 @@ Det er notorisk vanskeleg å skrive matematikk og tekst saman. Vanleg tekst er _
 
 Når vi får inn ein matematisk formel vert alt litt annleis. Det er svært få matematiske uttrykk som held seg innanfor øvre og nedre grense for bokstavane. Berre sjå på dette: \\(\frac{1}{2}\\)x eller denne: \\(\int\_0^k f(x)dx\\). Det eit godt typografisk verktøy (som \\(\LaTeX\\) gjer er å gje dei linene som treng det litt ekstra plass over og under, slik at ingen av dei matematiske formlane "stanger" borti kvarandre.
 
-Men det store problemet kjem når vi skal vise matematiske formlar på nettsider. Då må vi bruke JavaScriptet [MathJax](https://www.mathjax.org). Men det er notorisk vanskeleg å setje opp, ser det ut som.
+Men det store problemet kjem når vi skal vise matematiske formlar på nettsider. Då må vi bruke JavaScriptet [MathJax](https://www.mathjax.org). Men det er notorisk vanskeleg å setje opp, ser det ut som. Eg har lest Hugos offisielle manual, men det som viste seg var at trengte
