@@ -3,7 +3,7 @@ languageCode = "no-nn"
 title = "Kvamme/Selvik"
 theme = "mainroad"
 publishDir = "public"
-# paginate = "10"
+
 
 [params]
   defaultTheme = "auto"
@@ -21,7 +21,5 @@ publishDir = "public"
   home = "right"
   list = "right"
   single = "right"
-
-[Params.sidebar]
   # Enable widgets in given order
   widgets = ["search", "recent", "categories", "taglist"]
