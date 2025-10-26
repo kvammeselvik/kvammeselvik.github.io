@@ -3,16 +3,12 @@ languageCode = "no-nn"
 title = "Kvamme/Selvik"
 theme = "mainroad"
 publishDir = "public"
-paginate = "10"
+# paginate = "10"
 
 [params]
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
-
-[Author] # Used in authorbox
-  name = "Aasmund Kvamme"
-  bio = "Arbeider ved Høgskulen på Vestlandet"
 
 [Params]
   description = "On livet i familien Kvamme/Selvik. Kanskje mest om Aasmund." # Site description. Used in meta description
@@ -21,7 +17,7 @@ paginate = "10"
   schema = false # Enable Schema
   twitter_cards = false # Enable Twitter Cards if true
   readmore = false # Show "Read more" button in list if true
-  authorbox = true # Show authorbox at bottom of pages if true
+  # authorbox = true # Show authorbox at bottom of pages if true
   toc = true # Enable Table of Contents
   pager = true # Show pager navigation (prev/next links) at the bottom of pages if true
   post_meta = ["author", "date", "categories", "translations"] # Order of post meta information
