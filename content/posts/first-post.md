@@ -2,6 +2,7 @@
 title = "Mitt første blog-innlegg"
 author = ["Aasmund Kvamme"]
 date = 2025-10-25
+tags = ["oppstart", [",", "matematikk"]]
 draft = false
 +++
 
