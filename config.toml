@@ -17,15 +17,11 @@ publishDir = "public"
   mathjaxPath = "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js" # Specify MathJax path
   mathjaxConfig = "TeX-AMS-MML_HTMLorMML" # Specify MathJax config
 
-[params.sidebar]
-  position = "right"
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
 
-  [[params.sidebar.widgets]]
-    type = "recent_posts"
-    title = "Siste tekstar"
-    limit = 5
-
-  [[params.sidebar.widgets]]
-    type = "tags"
-    title = "Tags"
-    limit = 20
+[Params.sidebar]
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist"]
