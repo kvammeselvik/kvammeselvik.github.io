@@ -10,4 +10,4 @@ Første innlegg, **skrevet** i Emacs orgmode med hjelp av Hugo.
 
 ## Tankar {#tankar}
 
-Dette ser bra ut.
+Dette ser bra ut. Men har eg støtte for MathJax? \\\\(\sin(x^2)+\cos(x^2)=1=\\\)
