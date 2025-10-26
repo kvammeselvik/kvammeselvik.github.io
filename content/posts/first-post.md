@@ -10,4 +10,4 @@ Første innlegg, **skrevet** i Emacs orgmode med hjelp av Hugo.
 
 ## Tankar {#tankar}
 
-Dette ser _bra_ ut.
+Dette ser bra ut.
