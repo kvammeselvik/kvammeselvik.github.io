@@ -22,4 +22,4 @@ publishDir = "public"
   list = "right"
   single = "right"
   # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist"]
+  # widgets = ["search", "recent", "categories", "taglist"]
