@@ -47,7 +47,9 @@ Eg kan tenkje meg å utvikle snarvegar for <code>[0/2]</code>
     -   `git push`
 
 
-## Ting å sjekke ut <code>[0/2]</code> {#ting-å-sjekke-ut}
+## Ting å sjekke ut <code>[0/4]</code> {#ting-å-sjekke-ut}
 
 -   [ ] Korleis kan eg lenke mellom ulike postar?
 -   [ ] Korleis setje inn bilete?
+-   [ ] Korleis kan eg endre versjon av Ubuntu i WSL frå heimePC til jobbPC?
+-   [ ] Korleis kan eg autorisere meg frå jobbPC?

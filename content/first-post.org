@@ -26,6 +26,8 @@ Eg kan tenkje meg å utvikle snarvegar for [0/2]
    - =git add .=
    - =git commit -m "Tekst"=
    - =git push=
-* Ting å sjekke ut [0/2]
+* Ting å sjekke ut [0/4]
  - [ ] Korleis kan eg lenke mellom ulike postar?
  - [ ] Korleis setje inn bilete?
+ - [ ] Korleis kan eg endre versjon av Ubuntu i WSL frå heimePC til jobbPC?
+ - [ ] Korleis kan eg autorisere meg frå jobbPC?
