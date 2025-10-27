@@ -11,5 +11,5 @@ Ein av dei kanskje aller største fordelane med å skrive tekstar i Emacs orgmod
 
 ```python
 for i in range(4):
-  print(f"{i}^2 = {i**2}")
+  print(f"{i}^2 = {i**2}, {i^3} = {i**3}")
 ```
