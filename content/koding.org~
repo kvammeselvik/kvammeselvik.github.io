@@ -1,0 +1,19 @@
+#+TITLE: Koding i Emacs
+#+DATE: 2025-10-26
+#+tags[]: emacs orgmode koding
+#+categories[]: skriving undervising
+#+HUGO_SECTION: posts
+#+HUGO_BASE_DIR: //wsl.localhost/Ubuntu-22.04/home/aasmund/kvammeselvik
+* Innleiing
+Ein av dei kanskje aller største fordelane med å skrive tekstar i Emacs orgmode er at eg kan blande koding og tekst. Sjå til dømes på dette:
+
+#+begin_src python :results output
+  for i in range(4):
+    print(f"{i}^2 = {i**2}")
+#+end_src>
+
+
+#+begin_src emacs-lisp :results output
+  (message "Python command: %s" org-babel-python-command)
+#+end_src>
+
