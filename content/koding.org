@@ -17,4 +17,3 @@ Ein av dei kanskje aller største fordelane med å skrive tekstar i Emacs orgmod
 : 1^2 = 1
 : 2^2 = 4
 : 3^2 = 9
-
