@@ -1,0 +1,40 @@
+#+TITLE: Koding i Emacs - godt å hugse på
+#+DATE: 2025-10-27
+#+tags[]: emacs orgmode koding
+#+categories[]: skriving undervising
+#+HUGO_SECTION: posts
+#+HUGO_BASE_DIR: //wsl.localhost/Ubuntu-22.04/home/aasmund/kvammeselvik
+* Innleiing
+Her samlar eg ein del nyttige ting om å skrive (og utføre) koding i Emacs.
+* Oppsett
+I oppsettet av Emacs må eg ha på plass Babel. Det installerer eg som alle andre pakker via =package-list-packages= (leit etter =babel= og =ob-ipython=). Eg må også vite korleis eg skal få tak i Python-programmet (er det rett namn?); det er alltid litt krøkkete. Inntil vidare bruker eg denne kommandoen:
+#+begin_src
+  =(setq org-babel-python-command "C:/Users/aasmu/AppData/Local/Programs/Python/Python313/python.exe")=
+#+end_src
+Og så må eg fortelje Emacs kva koder eg vil bruke:
+#+begin_src
+  (org-babel-do-load-languages
+ 'org-babel-load-languages
+ '(
+   (python . t)
+   (emacs-lisp . t)
+   (calc . t)
+   ;; Include other languages here...
+   )
+ )
+#+end_src
+* Bruk
+Eg skriv koden inne i ein /kodeblokk/:
+
+=#+begin_src python=
+
+=#+end_src=
+
+Den lettaste måten å skrive ein blokk er ved snarvegen =C-c C-,= og så velje blant dei ulike alternativa (=s= i dette tilfellet). Det finst også ein snarveg =<sTAB=, men den har ein lei tendens til å legge att ein =>= på slutten, og då virker ingen ting.
+** Utdata
+Eg kan få skrevet utdata ved å bruke
+1. =print= (som vanleg)
+2. =IPython= evaluering
+*** 1. =print=
+Legg inn =:results output= i starten av blokka:
+
