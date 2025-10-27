@@ -5,14 +5,13 @@ Innleiing
 &lt;div id="outline-text-headline-1" class="outline-text-2"&gt;
 &lt;p&gt;Ein av dei kanskje aller største fordelane med å skrive tekstar i Emacs orgmode er at eg kan blande koding og tekst. Sjå til dømes på dette:&lt;/p&gt;
 &lt;div class="src src-python"&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; i &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(&lt;span style="color:#ae81ff"&gt;4&lt;/span&gt;):
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;f&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;i&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;^2 = &lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;i&lt;span style="color:#f92672"&gt;**&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;, &lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;i&lt;span style="color:#f92672"&gt;^&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt; = &lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;i&lt;span style="color:#f92672"&gt;**&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; i &lt;span style="color:#f92672"&gt;in&lt;/span&gt; range(&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;f&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;i&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;^2 = &lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;i&lt;span style="color:#f92672"&gt;**&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;2&lt;/span&gt;&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;, &lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;i&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;^3 = &lt;/span&gt;&lt;span style="color:#e6db74"&gt;{&lt;/span&gt;i&lt;span style="color:#f92672"&gt;**&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;3&lt;/span&gt;&lt;span style="color:#e6db74"&gt;}&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;pre class="example"&gt;
-0^2 = 0, 3 = 0
-1^2 = 1, 2 = 1
-2^2 = 4, 1 = 8
-3^2 = 9, 0 = 27
+0^2 = 0, 0^3 = 0
+1^2 = 1, 1^3 = 1
+2^2 = 4, 2^3 = 8
 &lt;/pre&gt;
 &lt;/div&gt;
 &lt;/div&gt;</description></item><item><title>Matematikk på nettsider</title><link>https://kvammeselvik.github.io/matematikk/</link><pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/matematikk/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2"&gt;
