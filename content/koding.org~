@@ -7,12 +7,13 @@
 * Innleiing
 Ein av dei kanskje aller største fordelane med å skrive tekstar i Emacs orgmode er at eg kan blande koding og tekst. Sjå til dømes på dette:
 
-#+begin_src python :results output :exports both
-  for i in range(3):
-    print(f"{i}^2 = {i**2}, {i}^3 = {i**3}")
+#+begin_src python :results output
+  for i in range(4):
+    print(f"{i}^2 = {i**2}, {i^3} = {i**3}")
 #+end_src
 
 #+RESULTS:
-: 0^2 = 0, 0^3 = 0
-: 1^2 = 1, 1^3 = 1
-: 2^2 = 4, 2^3 = 8
+: 0^2 = 0, 3 = 0
+: 1^2 = 1, 2 = 1
+: 2^2 = 4, 1 = 8
+: 3^2 = 9, 0 = 27
