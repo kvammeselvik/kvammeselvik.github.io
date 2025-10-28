@@ -3,7 +3,6 @@
 #+tags[]: emacs blog orgmode
 #+categories[]: skriving
 #+HUGO_SECTION: posts
-#+HUGO_BASE_DIR: //wsl.localhost/Ubuntu-22.04/home/aasmund/kvammeselvik
 * Om det tekniske oppsettet for bloggen
 Oppsettet av prosessen Emacs orgmode -> Hugo -> Github er ikkje heilt rett fram, men i prinsippet går det slik:
 ** Emacs
@@ -26,8 +25,8 @@ Eg kan tenkje meg å utvikle snarvegar for [0/2]
    - =git add .=
    - =git commit -m "Tekst"=
    - =git push=
-* Ting å sjekke ut [0/4]
+* Ting å sjekke ut [2/4]
  - [ ] Korleis kan eg lenke mellom ulike postar?
  - [ ] Korleis setje inn bilete?
- - [ ] Korleis kan eg endre versjon av Ubuntu i WSL frå heimePC til jobbPC?
- - [ ] Korleis kan eg autorisere meg frå jobbPC?
+ - [X] Korleis kan eg endre versjon av Ubuntu i WSL frå heimePC til jobbPC?
+ - [X] Korleis kan eg autorisere meg frå jobbPC?
