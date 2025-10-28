@@ -4,7 +4,7 @@
 #+HUGO_TAGS: hugo, orgmode, emacs
 #+HUGO_CATEGORIES: reference
 #+HUGO_DRAFT: false
-#+hugo_section: posts
+#+HUGO_SECTION: posts
 
 
 * ox-hugo Front Matter Cheat Sheet
