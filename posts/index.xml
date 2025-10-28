@@ -30,7 +30,7 @@
 &lt;p&gt;Her samlar eg ein del nyttige ting om å skrive (og utføre) koding i Emacs.&lt;/p&gt;
 &lt;h2 id="oppsett"&gt;Oppsett&lt;/h2&gt;
 &lt;p&gt;I oppsettet av Emacs må eg ha på plass Babel. Det installerer eg som alle andre pakker via &lt;code&gt;package-list-packages&lt;/code&gt; (leit etter &lt;code&gt;babel&lt;/code&gt; og &lt;code&gt;ob-ipython&lt;/code&gt;). Eg må også vite korleis eg skal få tak i Python-programmet (er det rett namn?); det er alltid litt krøkkete. Inntil vidare bruker eg denne kommandoen:&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code class="language-nil" data-lang="nil"&gt;=(setq org-babel-python-command &amp;#34;C:/Users/aasmu/AppData/Local/Programs/Python/Python313/python.exe&amp;#34;)=
+&lt;pre tabindex="0"&gt;&lt;code class="language-nil" data-lang="nil"&gt;(setq org-babel-python-command &amp;#34;C:/Users/aasmu/AppData/Local/Programs/Python/Python313/python.exe&amp;#34;)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Og så må eg fortelje Emacs kva koder eg vil bruke:&lt;/p&gt;</description></item><item><title>ox-hugo Front Matter Cheat Sheet</title><link>https://kvammeselvik.github.io/posts/skrivetest/</link><pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/posts/skrivetest/</guid><description>&lt;h2 id="ox-hugo-frontmatter-cheatsheet"&gt;ox-hugo Front Matter Cheat Sheet&lt;/h2&gt;
 &lt;p&gt;A quick reference table for mapping Hugo front matter (TOML/YAML) keys to
 their corresponding Org-mode / ox-hugo syntax.&lt;/p&gt;
