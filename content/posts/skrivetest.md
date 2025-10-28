@@ -2,7 +2,7 @@
 title = "ox-hugo Front Matter Cheat Sheet"
 author = ["Aasmund Kvamme"]
 date = 2025-10-27
-tags = ["hugo", [",", "orgmode"], [",", "emacs"]]
+tags = ["hugo", "orgmode", "emacs"]
 categories = ["reference"]
 draft = false
 +++

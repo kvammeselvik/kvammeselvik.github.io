@@ -1,11 +1,11 @@
 #+TITLE: ox-hugo Front Matter Cheat Sheet
 #+AUTHOR: Aasmund Kvamme
 #+DATE: 2025-10-27
-#+HUGO_TAGS: hugo, orgmode, emacs
+#+HUGO_TAGS: hugo orgmode emacs
 #+HUGO_CATEGORIES: reference
 #+HUGO_DRAFT: false
 #+HUGO_SECTION: posts
-
+  
 
 * ox-hugo Front Matter Cheat Sheet
 :PROPERTIES:
