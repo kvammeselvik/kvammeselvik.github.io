@@ -1,15 +1,18 @@
-* ox-hugo Front Matter Cheat Sheet
-:PROPERTIES:
-:EXPORT_FILE_NAME: ox-hugo-frontmatter-cheatsheet
-:HUGO_SECTION: posts
-:END:
-
 #+TITLE: ox-hugo Front Matter Cheat Sheet
 #+AUTHOR: Aasmund Kvamme
 #+DATE: 2025-10-27
 #+HUGO_TAGS: hugo, orgmode, emacs
 #+HUGO_CATEGORIES: reference
 #+HUGO_DRAFT: false
+#+hugo_section: posts
+
+
+* ox-hugo Front Matter Cheat Sheet
+:PROPERTIES:
+:EXPORT_FILE_NAME: ox-hugo-frontmatter-cheatsheet
+:HUGO_SECTION: posts
+:END:
+
 
 A quick reference table for mapping Hugo front matter (TOML/YAML) keys to
 their corresponding Org-mode / ox-hugo syntax.
