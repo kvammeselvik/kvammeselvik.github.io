@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Skriving on Kvamme/Selvik</title><link>https://kvammeselvik.github.io/categories/skriving/</link><description>Recent content in Skriving on Kvamme/Selvik</description><generator>Hugo</generator><language>no-nn</language><lastBuildDate>Mon, 27 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kvammeselvik.github.io/categories/skriving/index.xml" rel="self" type="application/rss+xml"/><item><title>Koding i Emacs - godt å hugse på</title><link>https://kvammeselvik.github.io/koding_reglar/</link><pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/koding_reglar/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2"&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Skriving on Kvamme/Selvik</title><link>https://kvammeselvik.github.io/categories/skriving/</link><description>Recent content in Skriving on Kvamme/Selvik</description><generator>Hugo</generator><language>no-nn</language><lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kvammeselvik.github.io/categories/skriving/index.xml" rel="self" type="application/rss+xml"/><item><title>Skrivereglar</title><link>https://kvammeselvik.github.io/skrivereglar/</link><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/skrivereglar/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2"&gt;
+&lt;h2 id="headline-1"&gt;
+Ulike skrivereglar i Orgmode
+&lt;/h2&gt;
+&lt;div id="outline-text-headline-1" class="outline-text-2"&gt;
+&lt;div id="outline-container-headline-2" class="outline-3"&gt;
+&lt;h3 id="headline-2"&gt;
+Front matter
+&lt;/h3&gt;
+&lt;div id="outline-text-headline-2" class="outline-text-3"&gt;
+&lt;p&gt;Dette er kommandoar eg kan skrive i orgmode for å ein tilsvarande kommando i front matter i .md-fila.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;.md&lt;/th&gt;
+&lt;th&gt;.org&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;#+title: My New Post&lt;/td&gt;
+&lt;td&gt;title = &amp;#34;My New Post&amp;#34;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;#+date: 2025-10-27&lt;/td&gt;
+&lt;td&gt;date = 2025-10-27&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;#+hugo_draft: true&lt;/td&gt;
+&lt;td&gt;draft = true&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;#+hugo_tags: emacs, orgmode&lt;/td&gt;
+&lt;td&gt;tags = [&amp;#34;emacs&amp;#34;, &amp;#34;orgmode&amp;#34;]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Koding i Emacs - godt å hugse på</title><link>https://kvammeselvik.github.io/koding_reglar/</link><pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/koding_reglar/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2"&gt;
 &lt;h2 id="headline-1"&gt;
 Innleiing
 &lt;/h2&gt;
