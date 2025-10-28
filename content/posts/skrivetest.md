@@ -4,7 +4,7 @@ author = ["Aasmund Kvamme"]
 date = 2025-10-27
 tags = ["hugo", [",", "orgmode"], [",", "emacs"]]
 categories = ["reference"]
-draft = true
+draft = false
 +++
 
 ## ox-hugo Front Matter Cheat Sheet {#ox-hugo-frontmatter-cheatsheet}
