@@ -15,9 +15,9 @@ Det lettaste er å installere det i WSL: =sudo apt install hugo=
 Her var det flest problem, men det løyser seg til slutt. For mange kommandoar til å liste kort her.
 ** MathJax
 Dette vart løyst; sjå denne.
-* Vidare utvikling (i Emacs)
-Eg kan tenkje meg å utvikle snarvegar for [0/2]
- - [ ] Automatisering av "front matter". No må eg
+* Vidare utvikling (i Emacs) [1/2]
+Eg kan tenkje meg å utvikle snarvegar for 
+ - [X] Automatisering av "front matter". No må eg
    - Opne ei fil i rett sti (=//wsl.localhost/Ubuntu-22.04/home/aasmund/kvammeselvik/content=)
    - Kopiere inn "front matter" frå ei anna fil
    - Rette opp felta #+TITLE og #+Date 

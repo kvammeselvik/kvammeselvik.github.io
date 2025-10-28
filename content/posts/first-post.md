@@ -33,11 +33,11 @@ Her var det flest problem, men det løyser seg til slutt. For mange kommandoar t
 Dette vart løyst; sjå denne.
 
 
-## Vidare utvikling (i Emacs) {#vidare-utvikling--i-emacs}
+## Vidare utvikling (i Emacs) <code>[1/2]</code> {#vidare-utvikling--i-emacs}
 
-Eg kan tenkje meg å utvikle snarvegar for <code>[0/2]</code>
+Eg kan tenkje meg å utvikle snarvegar for
 
--   [ ] Automatisering av "front matter". No må eg
+-   [X] Automatisering av "front matter". No må eg
     -   Opne ei fil i rett sti (`//wsl.localhost/Ubuntu-22.04/home/aasmund/kvammeselvik/content`)
     -   Kopiere inn "front matter" frå ei anna fil
     -   Rette opp felta #+TITLE og #+Date
