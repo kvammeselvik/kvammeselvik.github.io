@@ -1,0 +1,9 @@
+#+TITLE: Statistikk i ingeniørutdanning 0
+#+DATE: 2025-10-28
+#+TAGS[]: statistikk
+#+CATEGORIES[]: undervising
+#+HUGO_SECTION: posts
+* Innleiing
+Dette innlegget er starten på ein diskusjon med meg sjølv om korleis (og ikkje minst /kva/) vi skal undervise statistikk ved ingeniørutdanninga.
+* Bakgrunn
+Etter at den nye emneveggen vart innført har vi no fått eit emne på 5 stp som skal vere felles for /alle/ studieretningar, frå data til maskin via elektro. 
