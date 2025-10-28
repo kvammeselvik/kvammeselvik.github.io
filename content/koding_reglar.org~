@@ -48,22 +48,12 @@ Legg inn =:results output= i starten av blokka. Dette sikrer at alle =print=-set
     print(i)
 ,#+end_src
 #+end_src
-*** 2. "return" frå ein funksjon
-Alternativt kan vi "eksportere" resultatet ved hjelp av =return= (som om blokka er ein funksjon i Python):
-#+name: akv
-#+begin_src python :results value
+
+Alternativt kan vi bruke IPython sin innebygde funksjon: dersom den siste kommandoen i kodeblokka er ei utrekning vil resultatet av utrekninga vises på skjerm:
+#+begin_src python 
     a = 3
     return(a)
 #+end_src
 
-#+RESULTS: akv
-: 3
-
-Dette kan eg så kanskje bruke seinare:
-
-#+begin_src python :var x=akv
-  return(x*2)
-#+end_src
-
 #+RESULTS:
-: 6
+
