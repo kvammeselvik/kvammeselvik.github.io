@@ -1,9 +1,3 @@
-#+TITLE: Skrivetest
-#+DATE: 2025-10-28
-#+TAGS[]: emacs blog orgmode
-#+CATEGORIES[]: skriving
-#+HUGO_SECTION: posts
-
 * ox-hugo Front Matter Cheat Sheet
 :PROPERTIES:
 :EXPORT_FILE_NAME: ox-hugo-frontmatter-cheatsheet
@@ -15,7 +9,7 @@
 #+DATE: 2025-10-27
 #+HUGO_TAGS: hugo, orgmode, emacs
 #+HUGO_CATEGORIES: reference
-#+HUGO_DRAFT: false
+#+HUGO_DRAFT: true
 
 A quick reference table for mapping Hugo front matter (TOML/YAML) keys to
 their corresponding Org-mode / ox-hugo syntax.
@@ -40,7 +34,7 @@ their corresponding Org-mode / ox-hugo syntax.
 | Resources           | resources = [...]                    | #+hugo_resources: path="img/cover.jpg"          | For Hugo Page Bundles. |
 | Custom params       | [params] foo = "bar"                 | #+hugo_custom_front_matter: :params_foo "bar"   | Adds arbitrary fields. |
 
-**Examples**
+*Examples*
 
 #+begin_example org
 #+title: My First Hugo Post
@@ -55,7 +49,7 @@ This is a draft post that won’t be published until I set:
 #+hugo_draft: false
 #+end_example
 
-**Subtree example:**
+*Subtree example:*
 #+begin_example org
 * My Draft Post
 :PROPERTIES:

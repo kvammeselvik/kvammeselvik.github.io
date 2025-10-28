@@ -1,10 +1,10 @@
 +++
-title = "Skrivetest ox-hugo Front Matter Cheat Sheet"
+title = "ox-hugo Front Matter Cheat Sheet"
 author = ["Aasmund Kvamme"]
-date = 2025-10-28
+date = 2025-10-27
 tags = ["hugo", [",", "orgmode"], [",", "emacs"]]
 categories = ["reference"]
-draft = false
+draft = true
 +++
 
 ## ox-hugo Front Matter Cheat Sheet {#ox-hugo-frontmatter-cheatsheet}
@@ -32,7 +32,7 @@ their corresponding Org-mode / ox-hugo syntax.
 | Resources           | resources = [...]               | #+hugo_resources: path="img/cover.jpg"        | For Hugo Page Bundles.                    |
 | Custom params       | [params] foo = "bar"            | #+hugo_custom_front_matter: :params_foo "bar" | Adds arbitrary fields.                    |
 
-****Examples****
+**Examples**
 
 ```text
 #+title: My First Hugo Post
@@ -47,7 +47,7 @@ This is a draft post that won’t be published until I set:
 #+hugo_draft: false
 ```
 
-****Subtree example:****
+**Subtree example:**
 \#+begin_example org
 
 
