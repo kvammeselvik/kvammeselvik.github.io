@@ -1,7 +1,7 @@
 * ox-hugo Front Matter Cheat Sheet
 :PROPERTIES:
 :EXPORT_FILE_NAME: ox-hugo-frontmatter-cheatsheet
-:HUGO_SECTION: notes
+:HUGO_SECTION: posts
 :END:
 
 #+TITLE: ox-hugo Front Matter Cheat Sheet
