@@ -1,0 +1,63 @@
++++
+title = "ox-hugo Front Matter Cheat Sheet"
+author = ["Aasmund Kvamme"]
+date = 2025-10-27
+tags = ["hugo", "orgmode", "emacs"]
+categories = ["reference"]
+draft = false
++++
+
+## ox-hugo Front Matter Cheat Sheet {#ox-hugo-frontmatter-cheatsheet}
+
+A quick reference table for mapping Hugo front matter (TOML/YAML) keys to
+their corresponding Org-mode / ox-hugo syntax.
+
+| Purpose / Hugo Key  | TOML Example                    | Org / ox-hugo Syntax                          | Notes                                     |
+|---------------------|---------------------------------|-----------------------------------------------|-------------------------------------------|
+| Title               | title = "My Post"               | #+title: My Post                              | Required; sets post title.                |
+| Date                | date = 2025-10-27               | #+date: 2025-10-27                            | Defaults to export time if omitted.       |
+| Draft flag          | draft = true                    | #+hugo_draft: true                            | Set to true/false to control publishing.  |
+| Slug / URL part     | slug = "custom-slug"            | #+hugo_slug: custom-slug                      | Overrides the file name in the URL.       |
+| Categories          | categories = ["Tech"]           | #+hugo_categories: Tech                       | Multiple: comma-separated.                |
+| Tags                | tags = ["Emacs", "Org-mode"]    | #+hugo_tags: Emacs Org-mode                   | NOT Comma-separated.                      |
+| Section (folder)    | section = "posts"               | #+hugo_section: posts                         | Sets output folder (e.g. content/posts/). |
+| Base directory      | **(N/A)**                       | #+hugo_base_dir: ../my-hugo-site              | Path to Hugo project root.                |
+| Description         | description = "A short summary" | #+hugo_description: A short summary           | For SEO/meta description.                 |
+| Keywords            | keywords = ["emacs", "writing"] | #+hugo_keywords: emacs writing                | Optional SEO keywords.                    |
+| Author              | author = "Jane Doe"             | #+author: Jane Doe                            | Standard Org keyword.                     |
+| Aliases / Redirects | aliases = ["_old/url_"]         | #+hugo_aliases: _old/url_                     | Useful for redirects.                     |
+| Weight / Order      | weight = 10                     | #+hugo_weight: 10                             | Determines sort order.                    |
+| Type                | type = "project"                | #+hugo_type: project                          | Overrides section type.                   |
+| Layout              | layout = "special"              | #+hugo_layout: special                        | Custom layout template.                   |
+| Resources           | resources = [...]               | #+hugo_resources: path="img/cover.jpg"        | For Hugo Page Bundles.                    |
+| Custom params       | [params] foo = "bar"            | #+hugo_custom_front_matter: :params_foo "bar" | Adds arbitrary fields.                    |
+
+**Examples**
+
+```text
+#+title: My First Hugo Post
+#+date: 2025-10-27
+#+hugo_section: posts
+#+hugo_draft: true
+#+hugo_tags: emacs, orgmode
+#+hugo_categories: writing
+#+hugo_description: A simple example of using ox-hugo front matter.
+
+This is a draft post that won’t be published until I set:
+#+hugo_draft: false
+```
+
+**Subtree example:**
+
+```text
+My Draft Post
+:PROPERTIES:
+:EXPORT_FILE_NAME: my-draft
+:HUGO_SECTION: posts
+:HUGO_DRAFT: true
+:HUGO_TAGS: emacs orgmode
+:HUGO_CATEGORIES: writing
+:END:
+
+This is a subtree-based post that exports as a draft.
+```
