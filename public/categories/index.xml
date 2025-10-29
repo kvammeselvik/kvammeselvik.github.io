@@ -9,6 +9,13 @@
     <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Skriving</title>
+      <link>http://localhost:1313/categories/skriving/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/categories/skriving/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Undervising</title>
       <link>http://localhost:1313/categories/undervising/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
@@ -16,10 +23,10 @@
       <description></description>
     </item>
     <item>
-      <title>Skriving</title>
-      <link>http://localhost:1313/categories/skriving/</link>
+      <title>Reference</title>
+      <link>http://localhost:1313/categories/reference/</link>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/skriving/</guid>
+      <guid>http://localhost:1313/categories/reference/</guid>
       <description></description>
     </item>
     <item>

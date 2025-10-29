@@ -68,16 +68,29 @@ Legg inn `:results output` i starten av blokka. Dette sikrer at alle `print`-set
 
 #### 2. "return" frå ein funksjon {#2-dot-return-frå-ein-funksjon}
 
-Alternativt kan vi "eksportere" resultatet ved hjelp av `return` (som om blokka er ein funksjon i Python):
+Alternativt kan vi "eksportere" resultatet ved hjelp av `return` (som om blokka er ein funksjon i Python). Dersom eg berre vil vise resultatet i fortløpande tekst treng eg ikkje `:results`-parameteren:
 
-<a id="code-snippet--akv"></a>
-```python
-a = 3
-return(a)
+```nil
+#+begin_src python
+    a = 3
+    return(a)
+#+end_src
 ```
 
-Dette kan eg så kanskje bruke seinare:
+Men så kjem det fine: dersom eg eksporterer resultatet med parameteren `:results value` kan eg gjenbruke verdien i ein seinare blokk. Og på same måte som med ein funksjon i Python så er det _blokka_ som får verdien av `return`, så eg må gi blokka eit _namn_:
 
-```python
-return(x*2)
+```nil
+#+name: akv
+  #+begin_src python
+  a = 9
+  return(a**2)
+  #+end_src
+```
+
+I neste blokk kan eg så bruke denne variabelen (`akv`):
+
+```nil
+#+begin_src python :var x=akv :results output
+  return(x*2)
+#+end_src
 ```

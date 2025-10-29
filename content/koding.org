@@ -3,7 +3,6 @@
 #+tags[]: emacs orgmode koding
 #+categories[]: skriving undervising
 #+HUGO_SECTION: posts
-#+HUGO_BASE_DIR: //wsl.localhost/Ubuntu-22.04/home/aasmund/kvammeselvik
 * Innleiing
 Ein av dei kanskje aller største fordelane med å skrive tekstar i Emacs orgmode er at eg kan blande koding og tekst. Sjå til dømes på dette:
 

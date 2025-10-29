@@ -58,6 +58,8 @@
 <ul>
 <li><a href="#headline-5">1. <code class="verbatim">print</code></a>
 </li>
+<li><a href="#headline-6">2. &#34;return&#34; frå ein funksjon</a>
+</li>
 </ul>
 </li>
 </ul>
@@ -82,19 +84,20 @@ Oppsett
 <div id="outline-text-headline-2" class="outline-text-2">
 <p>I oppsettet av Emacs må eg ha på plass Babel. Det installerer eg som alle andre pakker via <code class="verbatim">package-list-packages</code> (leit etter <code class="verbatim">babel</code> og <code class="verbatim">ob-ipython</code>). Eg må også vite korleis eg skal få tak i Python-programmet (er det rett namn?); det er alltid litt krøkkete. Inntil vidare bruker eg denne kommandoen:</p>
 <div class="src src-text">
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>  =(setq org-babel-python-command &#34;C:/Users/aasmu/AppData/Local/Programs/Python/Python313/python.exe&#34;)=</span></span></code></pre></div>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>(setq org-babel-python-command &#34;C:/Users/aasmu/AppData/Local/Programs/Python/Python313/python.exe&#34;)</span></span></code></pre></div>
 </div>
-<p>Og så må eg fortelje Emacs kva koder eg vil bruke:</p>
+<p>
+Og så må eg fortelje Emacs kva koder eg vil bruke:</p>
 <div class="src src-text">
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>  (org-babel-do-load-languages
-</span></span><span style="display:flex;"><span> &#39;org-babel-load-languages
-</span></span><span style="display:flex;"><span> &#39;(
-</span></span><span style="display:flex;"><span>   (python . t)
-</span></span><span style="display:flex;"><span>   (emacs-lisp . t)
-</span></span><span style="display:flex;"><span>   (calc . t)
-</span></span><span style="display:flex;"><span>   ;; Include other languages here...
-</span></span><span style="display:flex;"><span>   )
-</span></span><span style="display:flex;"><span> )</span></span></code></pre></div>
+</span></span><span style="display:flex;"><span>   &#39;org-babel-load-languages
+</span></span><span style="display:flex;"><span>     &#39;(
+</span></span><span style="display:flex;"><span>        (python . t)
+</span></span><span style="display:flex;"><span>        (emacs-lisp . t)
+</span></span><span style="display:flex;"><span>        (calc . t)
+</span></span><span style="display:flex;"><span>        ;; Include other languages here...
+</span></span><span style="display:flex;"><span>      )
+</span></span><span style="display:flex;"><span>  )</span></span></code></pre></div>
 </div>
 </div>
 </div>
@@ -104,12 +107,12 @@ Bruk
 </h2>
 <div id="outline-text-headline-3" class="outline-text-2">
 <p>Eg skriv koden inne i ein <em>kodeblokk</em>:</p>
-<p>
-<code class="verbatim">#+begin_src python</code></p>
-<p>
-<code class="verbatim">#+end_src</code></p>
-<p>
-Den lettaste måten å skrive ein blokk er ved snarvegen <code class="verbatim">C-c C-,</code> og så velje blant dei ulike alternativa (<code class="verbatim">s</code> i dette tilfellet). Det finst også ein snarveg <code class="verbatim">&lt;sTAB</code>, men den har ein lei tendens til å legge att ein <code class="verbatim">&gt;</code> på slutten, og då virker ingen ting.</p>
+<div class="src src-text">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>,#+begin_src python
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>,#+end_src</span></span></code></pre></div>
+</div>
+<p>Den lettaste måten å skrive ein blokk er ved snarvegen <code class="verbatim">C-c C-,</code> og så velje blant dei ulike alternativa (<code class="verbatim">s</code> i dette tilfellet). (Det har tidlegare også vore ein snarveg <code class="verbatim">&lt;sTAB</code>, men den har ein lei tendens til å legge att ein <code class="verbatim">&gt;</code> på slutten, og då virker ingen ting.)</p>
 <div id="outline-container-headline-4" class="outline-3">
 <h3 id="headline-4">
 Utdata
@@ -125,7 +128,41 @@ Utdata
 1. <code class="verbatim">print</code>
 </h4>
 <div id="outline-text-headline-5" class="outline-text-4">
-<p>Legg inn <code class="verbatim">:results output</code> i starten av blokka:</p>
+<p>Legg inn <code class="verbatim">:results output</code> i starten av blokka. Dette sikrer at alle <code class="verbatim">print</code>-setningar kjem ut etter koden.</p>
+<div class="src src-text">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>,#+begin_src python :results output
+</span></span><span style="display:flex;"><span>  for i in range(4):
+</span></span><span style="display:flex;"><span>    print(i)
+</span></span><span style="display:flex;"><span>,#+end_src</span></span></code></pre></div>
+</div>
+</div>
+</div>
+<div id="outline-container-headline-6" class="outline-4">
+<h4 id="headline-6">
+2. &#34;return&#34; frå ein funksjon
+</h4>
+<div id="outline-text-headline-6" class="outline-text-4">
+<p>Alternativt kan vi &#34;eksportere&#34; resultatet ved hjelp av <code class="verbatim">return</code> (som om blokka er ein funksjon i Python). Dersom eg berre vil vise resultatet i fortløpande tekst treng eg ikkje <code class="verbatim">:results</code>-parameteren:</p>
+<div class="src src-text">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>,#+begin_src python
+</span></span><span style="display:flex;"><span>    a = 3
+</span></span><span style="display:flex;"><span>    return(a)
+</span></span><span style="display:flex;"><span>,#+end_src</span></span></code></pre></div>
+</div>
+<p>Men så kjem det fine: dersom eg eksporterer resultatet med parameteren <code class="verbatim">:results value</code> kan eg gjenbruke verdien i ein seinare blokk. Og på same måte som med ein funksjon i Python så er det <em>blokka</em> som får verdien av <code class="verbatim">return</code>, så eg må gi blokka eit <em>namn</em>:</p>
+<div class="src src-text">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>,#+name: akv
+</span></span><span style="display:flex;"><span>  ,#+begin_src python
+</span></span><span style="display:flex;"><span>  a = 9
+</span></span><span style="display:flex;"><span>  return(a**2)
+</span></span><span style="display:flex;"><span>  ,#+end_src</span></span></code></pre></div>
+</div>
+<p>I neste blokk kan eg så bruke denne variabelen (<code class="verbatim">akv</code>):</p>
+<div class="src src-text">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>,#+begin_src python :var x=akv :results output
+</span></span><span style="display:flex;"><span>  return(x*2)
+</span></span><span style="display:flex;"><span>,#+end_src</span></span></code></pre></div>
+</div>
 </div>
 </div>
 </div>
@@ -157,9 +194,9 @@ Utdata
 
 <nav class="pager flex">
 	<div class="pager__item pager__item--prev">
-		<a class="pager__link" href="/_index_ikkjeibruk/" rel="prev">
+		<a class="pager__link" href="/skrivetest/" rel="prev">
 			<span class="pager__subtitle">«&thinsp;Previous</span>
-			<p class="pager__title">Kvamme/Selvik</p>
+			<p class="pager__title">ox-hugo Front Matter Cheat Sheet</p>
 		</a>
 	</div>
 	<div class="pager__item pager__item--next">
@@ -183,7 +220,10 @@ Utdata
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/skrivereglar/">Skrivereglar</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/statistikk_i_ingeni%C3%B8r_0/">Statistikk i ingeniørutdanning 0</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/koding_reglar/">Koding i Emacs - godt å hugse på</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/skrivetest/">ox-hugo Front Matter Cheat Sheet</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/koding/">Koding i Emacs</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/matematikk/">Matematikk på nettsider</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/first-post/">Emacs orgmode og Hugo</a></li>
@@ -197,6 +237,8 @@ Utdata
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/matematikk/">Matematikk</a></li>
 			<li class="widget__item">
+				<a class="widget__link" href="/categories/reference/">Reference</a></li>
+			<li class="widget__item">
 				<a class="widget__link" href="/categories/skriving/">Skriving</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/undervising/">Undervising</a></li>
@@ -208,6 +250,7 @@ Utdata
 	<div class="widget__content">
 		<a class="widget-taglist__link widget__link btn" href="/tags/blog/" title="Blog">Blog</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/emacs/" title="Emacs">Emacs</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/hugo/" title="Hugo">Hugo</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/koding/" title="Koding">Koding</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/latex/" title="Latex">Latex</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/mathjax/" title="Mathjax">Mathjax</a>

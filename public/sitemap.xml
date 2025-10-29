@@ -2,13 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tags/blog/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/emacs/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/orgmode/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/skrivereglar/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skrivereglar/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/skriving/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tags/statistikk/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/statistikk_i_ingeni%C3%B8r_0/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/statistikk_i_ingeni%C3%B8r_0/</loc>
@@ -20,7 +41,7 @@
     <loc>http://localhost:1313/categories/undervising/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/emacs/</loc>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/koding/</loc>
@@ -32,10 +53,13 @@
     <loc>http://localhost:1313/posts/koding_reglar/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/orgmode/</loc>
+    <loc>http://localhost:1313/posts/skrivetest/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/skriving/</loc>
+    <loc>http://localhost:1313/skrivetest/</loc>
+    <lastmod>2025-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/reference/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
@@ -64,9 +88,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/mathjax/</loc>
     <lastmod>2025-10-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
-    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/first-post/</loc>
     <lastmod>2025-10-25T00:00:00+00:00</lastmod>

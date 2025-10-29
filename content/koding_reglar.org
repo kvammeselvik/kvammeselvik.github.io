@@ -3,7 +3,6 @@
 #+tags[]: emacs orgmode koding
 #+categories[]: skriving undervising
 #+HUGO_SECTION: posts
-#+HUGO_BASE_DIR: //wsl.localhost/Ubuntu-22.04/home/aasmund/kvammeselvik
 * Innleiing
 Her samlar eg ein del nyttige ting om å skrive (og utføre) koding i Emacs.
 * Oppsett
@@ -27,14 +26,11 @@ Og så må eg fortelje Emacs kva koder eg vil bruke:
 #+end_src
 * Bruk
 Eg skriv koden inne i ein /kodeblokk/:
-
 #+begin_src 
 ,#+begin_src python
 
 ,#+end_src
 #+end_src
-
-
 Den lettaste måten å skrive ein blokk er ved snarvegen =C-c C-,= og så velje blant dei ulike alternativa (=s= i dette tilfellet). (Det har tidlegare også vore ein snarveg =<sTAB=, men den har ein lei tendens til å legge att ein =>= på slutten, og då virker ingen ting.)
 ** Utdata
 Eg kan få skrevet utdata ved å bruke
@@ -49,21 +45,24 @@ Legg inn =:results output= i starten av blokka. Dette sikrer at alle =print=-set
 ,#+end_src
 #+end_src
 *** 2. "return" frå ein funksjon
-Alternativt kan vi "eksportere" resultatet ved hjelp av =return= (som om blokka er ein funksjon i Python):
-#+name: akv
-#+begin_src python :results value
+Alternativt kan vi "eksportere" resultatet ved hjelp av =return= (som om blokka er ein funksjon i Python). Dersom eg berre vil vise resultatet i fortløpande tekst treng eg ikkje =:results=-parameteren:
+#+begin_src 
+,#+begin_src python
     a = 3
     return(a)
+,#+end_src
 #+end_src
-
-#+RESULTS: akv
-: 3
-
-Dette kan eg så kanskje bruke seinare:
-
-#+begin_src python :var x=akv
+Men så kjem det fine: dersom eg eksporterer resultatet med parameteren =:results value= kan eg gjenbruke verdien i ein seinare blokk. Og på same måte som med ein funksjon i Python så er det /blokka/ som får verdien av =return=, så eg må gi blokka eit /namn/:
+#+begin_src 
+,#+name: akv
+  ,#+begin_src python
+  a = 9
+  return(a**2)
+  ,#+end_src
+#+end_src
+I neste blokk kan eg så bruke denne variabelen (=akv=):
+#+begin_src 
+,#+begin_src python :var x=akv :results output
   return(x*2)
+,#+end_src
 #+end_src
-
-#+RESULTS:
-: 6
