@@ -40,9 +40,9 @@ Eg skriv koden inne i ein _kodeblokk_:
 ```nil
 #+begin_src python
 
-#+end_src
 ```
 
+\#+end_src
 Den lettaste måten å skrive ein blokk er ved snarvegen `C-c C-,` og så velje blant dei ulike alternativa (`s` i dette tilfellet). (Det har tidlegare også vore ein snarveg `<sTAB`, men den har ein lei tendens til å legge att ein `>` på slutten, og då virker ingen ting.)
 
 
@@ -62,8 +62,9 @@ Legg inn `:results output` i starten av blokka. Dette sikrer at alle `print`-set
 #+begin_src python :results output
   for i in range(4):
     print(i)
-#+end_src
 ```
+
+\#+end_src
 
 
 #### 2. "return" frå ein funksjon {#2-dot-return-frå-ein-funksjon}
@@ -74,9 +75,9 @@ Alternativt kan vi "eksportere" resultatet ved hjelp av `return` (som om blokka 
 #+begin_src python
     a = 3
     return(a)
-#+end_src
 ```
 
+\#+end_src
 Men så kjem det fine: dersom eg eksporterer resultatet med parameteren `:results value` kan eg gjenbruke verdien i ein seinare blokk. Og på same måte som med ein funksjon i Python så er det _blokka_ som får verdien av `return`, så eg må gi blokka eit _namn_:
 
 ```nil
@@ -84,13 +85,14 @@ Men så kjem det fine: dersom eg eksporterer resultatet med parameteren `:result
   #+begin_src python
   a = 9
   return(a**2)
-  #+end_src
 ```
 
+\#+end_src
 I neste blokk kan eg så bruke denne variabelen (`akv`):
 
 ```nil
 #+begin_src python :var x=akv :results output
   return(x*2)
-#+end_src
 ```
+
+\#+end_src
