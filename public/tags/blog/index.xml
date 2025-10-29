@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Kvamme/Selvik</title>
+    <link>http://localhost:1313/tags/blog/</link>
+    <description>Recent content in Blog on Kvamme/Selvik</description>
+    <generator>Hugo</generator>
+    <language>no-nn</language>
+    <lastBuildDate>Sat, 25 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Emacs orgmode og Hugo</title>
+      <link>http://localhost:1313/first-post/</link>
+      <pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/first-post/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Om det tekniske oppsettet for bloggen&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;Oppsettet av prosessen Emacs orgmode -&amp;gt; Hugo -&amp;gt; Github er ikkje heilt rett fram, men i prinsippet går det slik:&lt;/p&gt;&#xA;&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-2&#34;&gt;&#xA;Emacs&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;Eg må ha dette installert:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://orgmode.org&#34;&gt;orgmode&lt;/a&gt; (for skrivinga)&lt;/li&gt;&#xA;&lt;li&gt;ox-hugo (for eksporten til &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugos&lt;/a&gt; markdown-format)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-3&#34;&gt;&#xA;Hugo&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;Det lettaste er å installere det i WSL: &lt;code class=&#34;verbatim&#34;&gt;sudo apt install hugo&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-4&#34;&gt;&#xA;Github&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;Her var det flest problem, men det løyser seg til slutt. For mange kommandoar til å liste kort her.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Emacs orgmode og Hugo - Kvamme/Selvik</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Kvamme/Selvik" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Kvamme/Selvik</div>
+					
+				</div>
+		</a>
+	</div>
+		<div class="divider"></div>
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Emacs orgmode og Hugo</h1>
+			
+		</header>
+		
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#om-det-tekniske-oppsettet-for-bloggen">Om det tekniske oppsettet for bloggen</a>
+      <ul>
+        <li><a href="#emacs">Emacs</a></li>
+        <li><a href="#hugo">Hugo</a></li>
+        <li><a href="#github">Github</a></li>
+        <li><a href="#mathjax">MathJax</a></li>
+      </ul>
+    </li>
+    <li><a href="#vidare-utvikling--i-emacs">Vidare utvikling (i Emacs) [1/2]</a></li>
+    <li><a href="#ting-å-sjekke-ut">Ting å sjekke ut [2/4]</a></li>
+  </ul>
+</nav>
+	</div>
+</div><div class="content post__content clearfix">
+			<h2 id="om-det-tekniske-oppsettet-for-bloggen">Om det tekniske oppsettet for bloggen</h2>
+<p>Oppsettet av prosessen Emacs orgmode -&gt; Hugo -&gt; Github er ikkje heilt rett fram, men i prinsippet går det slik:</p>
+<h3 id="emacs">Emacs</h3>
+<p>Eg må ha dette installert:</p>
+<ul>
+<li><a href="https://orgmode.org">orgmode</a> (for skrivinga)</li>
+<li>ox-hugo (for eksporten til <a href="https://gohugo.io">Hugos</a> markdown-format)</li>
+</ul>
+<h3 id="hugo">Hugo</h3>
+<p>Det lettaste er å installere det i WSL: <code>sudo apt install hugo</code></p>
+<h3 id="github">Github</h3>
+<p>Her var det flest problem, men det løyser seg til slutt. For mange kommandoar til å liste kort her.</p>
+<h3 id="mathjax">MathJax</h3>
+<p>Dette vart løyst; sjå denne.</p>
+<h2 id="vidare-utvikling--i-emacs">Vidare utvikling (i Emacs) <!-- raw HTML omitted -->[1/2]<!-- raw HTML omitted --></h2>
+<p>Eg kan tenkje meg å utvikle snarvegar for</p>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> Automatisering av &ldquo;front matter&rdquo;. No må eg
+<ul>
+<li>Opne ei fil i rett sti (<code>//wsl.localhost/Ubuntu-22.04/home/aasmund/kvammeselvik/content</code>)</li>
+<li>Kopiere inn &ldquo;front matter&rdquo; frå ei anna fil</li>
+<li>Rette opp felta #+TITLE og #+Date</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> Enklare git til Github. No må eg køyre dei tre kommandoane
+<ul>
+<li><code>git add .</code></li>
+<li><code>git commit -m &quot;Tekst&quot;</code></li>
+<li><code>git push</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="ting-å-sjekke-ut">Ting å sjekke ut <!-- raw HTML omitted -->[2/4]<!-- raw HTML omitted --></h2>
+<ul>
+<li><input disabled="" type="checkbox"> Korleis kan eg lenke mellom ulike postar?</li>
+<li><input disabled="" type="checkbox"> Korleis setje inn bilete?</li>
+<li><input checked="" disabled="" type="checkbox"> Korleis kan eg endre versjon av Ubuntu i WSL frå heimePC til jobbPC?</li>
+<li><input checked="" disabled="" type="checkbox"> Korleis kan eg autorisere meg frå jobbPC?</li>
+</ul>
+
+		</div>
+	</article>
+</main>
+
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/posts/matematikk/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Matematikk på nettsider</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			<aside class="sidebar"><div class="widget-search widget">
+	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
+		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
+		<input class="widget-search__submit" type="submit" value="Search">
+		<input type="hidden" name="sitesearch" value="http://localhost:1313/">
+	</form>
+</div>
+<div class="widget-recent widget">
+	<h4 class="widget__title">Recent Posts</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/koding_reglar/">Koding i Emacs - godt å hugse på</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/koding/">Koding i Emacs</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/matematikk/">Matematikk på nettsider</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/first-post/">Emacs orgmode og Hugo</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-categories widget">
+	<h4 class="widget__title">Categories</h4>
+	<div class="widget__content">
+		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/matematikk/">Matematikk</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/skriving/">Skriving</a></li>
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/undervising/">Undervising</a></li>
+		</ul>
+	</div>
+</div>
+<div class="widget-taglist widget">
+	<h4 class="widget__title">Tags</h4>
+	<div class="widget__content">
+		<a class="widget-taglist__link widget__link btn" href="/tags/blog/" title="Blog">Blog</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/emacs/" title="Emacs">Emacs</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/koding/" title="Koding">Koding</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/latex/" title="Latex">Latex</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/mathjax/" title="Mathjax">Mathjax</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/orgmode/" title="Orgmode">Orgmode</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/statistikk/" title="Statistikk">Statistikk</a>
+	</div>
+</div>
+</aside>
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+		<div class="footer__copyright">
+			&copy; 2025 Kvamme/Selvik.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>

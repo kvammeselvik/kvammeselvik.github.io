@@ -1,0 +1,42 @@
+#+TITLE: Statistikk i ingeniørutdanning 0
+#+DATE: 2025-10-28
+#+TAGS[]: statistikk
+#+CATEGORIES[]: undervising
+#+HUGO_SECTION: posts
+* Innleiing
+Dette innlegget er starten på ein diskusjon med meg sjølv om korleis (og ikkje minst /kva/) vi skal undervise statistikk ved ingeniørutdanninga.
+* Bakgrunn
+Etter at den nye emneveggen vart innført har vi no fått eit emne på 5 stp som skal vere felles for /alle/ studieretningar, frå data til maskin via elektro.  Det seier seg sjølv at 5 stp ikkje er mykje, og vi må ta ein grundig vurdering av kva som er /nødvendig/ å ha med i pensum.
+** Rammeplan
+Frå [[https://www.uhr.no/_f/p1/i906ea646-71d3-4cea-8d7c-696786b6ae12/nasjonale-retningslinjer-for-ingeniorutdanning-vilkar-for-siving-vedtatt-12mai-2023.pdf][Nasjonale retningslinjer for ingenørutdanning]] kan eg hente det vesle vi har av "formelle krav":
+
+Forskrift om rammeplan for ingeniørutdanning krever grunnleggende kunnskaper i matematikk, og
+kunnskaper om hvordan matematikk kan integreres i ingeniørfaglig problemløsning. Alle ingeniørstudenter
+skal ha grunnleggende kunnskaper innen kalkulus, lineær algebra og statistikk. Videre må studiet
+inneholde tema som er relevant for det aktuelle programmet.
+*** Temaer som dekkes:
+[...] Grunnleggende om sannsynlighetsbegrepet, betingede sannsynligheter,
+stokastiske variable, sannsynlighetsfordelinger, forventing og varians og sentralgrenseteoremet. Statistisk
+analyse skal omfatte estimering, konfidensintervall og hypotesetesting, korrelasjon og lineær regresjon.
+*** Læringsutbytte
+**** Kunnskap
+ - Kandidaten kan forklare begreper og gjennomføre numeriske og analytiske beregninger innen de
+temaer som tas opp innen kalkulus, lineær algebra og statistikk, og innen andre temaer som tas opp
+i matematikkemnene.
+ - Kandidaten kan formulere matematiske modeller, fortrinnsvis med eksempler hentet fra eget ingeniørfaglige område.
+**** Ferdigheter
+ - Kandidaten behersker relevant matematisk symbol- og formelapparat.
+ - Kandidaten kan resonnere matematisk.
+ - Kandidaten kan formulere ingeniørfaglige problemer på matematisk form.
+ - *Kandidaten kan innhente, analysere og presentere numeriske data*.
+[...]
+**** Generell kompetanse
+- Kandidaten kan bruke matematikk til å kommunisere ingeniørfaglige problemstillinger.
+- Kandidaten kan oppnå relevante svar på faglige problemstillinger, gjennom anvendelse av
+matematiske og statistiske undersøkelser og metoder.
+- Kandidaten har matematisk forståelse som gir grunnlag for livslang læring.
+** Emneplan (haust 2025)
+Med utgangspunkt i rammeplanen har vi (hausten 2025) satt opp desse *kunnskapsmåla*:
+#+begin_quote
+Etter fullført emne kjenner studenten til grunnleggjande teori om deskriptiv statistikk, sannsyn, fundamentale fordelingar, estimering av parametre og konfidensintervall, hypotesetesting, korrelasjon, enkel lineær regresjon, val av statistiske modellar og dataverktøy for statistikk.
+#+end_quote

@@ -30,3 +30,4 @@ Eg kan tenkje meg å utvikle snarvegar for
  - [ ] Korleis setje inn bilete?
  - [X] Korleis kan eg endre versjon av Ubuntu i WSL frå heimePC til jobbPC?
  - [X] Korleis kan eg autorisere meg frå jobbPC?
+ 
