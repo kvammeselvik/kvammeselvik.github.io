@@ -2,97 +2,102 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://kvammeselvik.github.io/tags/blog/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kvammeselvik.github.io/categories/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kvammeselvik.github.io/tags/emacs/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kvammeselvik.github.io/categories/hobby/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kvammeselvik.github.io/blog-mal/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kvammeselvik.github.io/tags/orgmode/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kvammeselvik.github.io/posts/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kvammeselvik.github.io/posts/skilsmisser/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kvammeselvik.github.io/skilsmisser/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kvammeselvik.github.io/categories/skriving/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kvammeselvik.github.io/tags/statistikk/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kvammeselvik.github.io/tags/</loc>
+    <lastmod>2025-11-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kvammeselvik.github.io/posts/skrivereglar/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://kvammeselvik.github.io/skrivereglar/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/emacs/</loc>
+    <loc>https://kvammeselvik.github.io/statistikk_i_ingeni%C3%B8r_0/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/orgmode/</loc>
+    <loc>https://kvammeselvik.github.io/categories/undervising/</loc>
     <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/skrivereglar/</loc>
-    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/skrivereglar/</loc>
-    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/skriving/</loc>
-    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/statistikk/</loc>
-    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/statistikk_i_ingeni%C3%B8r_0/</loc>
-    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/statistikk_i_ingeni%C3%B8r_0/</loc>
-    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/undervising/</loc>
-    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://kvammeselvik.github.io/tags/hugo/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/koding/</loc>
+    <loc>https://kvammeselvik.github.io/tags/koding/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/koding_reglar/</loc>
+    <loc>https://kvammeselvik.github.io/koding_reglar/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/koding_reglar/</loc>
+    <loc>https://kvammeselvik.github.io/posts/koding_reglar/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/skrivetest/</loc>
+    <loc>https://kvammeselvik.github.io/posts/skrivetest/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/skrivetest/</loc>
+    <loc>https://kvammeselvik.github.io/skrivetest/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/reference/</loc>
+    <loc>https://kvammeselvik.github.io/categories/reference/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://kvammeselvik.github.io/</loc>
     <lastmod>2025-10-26T17:37:36+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/_index_ikkjeibruk/</loc>
+    <loc>https://kvammeselvik.github.io/_index_ikkjeibruk/</loc>
     <lastmod>2025-10-26T17:37:36+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/koding/</loc>
+    <loc>https://kvammeselvik.github.io/koding/</loc>
     <lastmod>2025-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/koding/</loc>
+    <loc>https://kvammeselvik.github.io/posts/koding/</loc>
     <lastmod>2025-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/latex/</loc>
+    <loc>https://kvammeselvik.github.io/tags/latex/</loc>
     <lastmod>2025-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/matematikk/</loc>
+    <loc>https://kvammeselvik.github.io/categories/matematikk/</loc>
     <lastmod>2025-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/matematikk/</loc>
+    <loc>https://kvammeselvik.github.io/matematikk/</loc>
     <lastmod>2025-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/matematikk/</loc>
+    <loc>https://kvammeselvik.github.io/posts/matematikk/</loc>
     <lastmod>2025-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mathjax/</loc>
+    <loc>https://kvammeselvik.github.io/tags/mathjax/</loc>
     <lastmod>2025-10-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/first-post/</loc>
-    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/first-post/</loc>
-    <lastmod>2025-10-25T00:00:00+00:00</lastmod>
+    <loc>https://kvammeselvik.github.io/posts/canvas/</loc>
   </url>
 </urlset>

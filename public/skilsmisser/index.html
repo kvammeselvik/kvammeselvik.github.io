@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Statistikk i ingeniørutdanning 0 - Kvamme/Selvik</title>
+	<title>Skilsmisser og fødselsdato - Kvamme/Selvik</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,7 +40,7 @@
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Statistikk i ingeniørutdanning 0</h1>
+			<h1 class="post__title">Skilsmisser og fødselsdato</h1>
 			
 		</header>
 		
@@ -49,27 +49,17 @@
 	<div class="toc__menu">
 		<nav id="TableOfContents">
 <ul>
-<li><a href="#headline-1">Innleiing</a>
-</li>
-<li><a href="#headline-2">Bakgrunn</a>
+<li><a href="#headline-1">Skilsmisserate og fødselsdatoar</a>
 <ul>
-<li><a href="#headline-3">Rammeplan</a>
-<ul>
-<li><a href="#headline-4">Temaer som dekkes:</a>
+<li><a href="#headline-2">Datagrunnlaget</a>
 </li>
-<li><a href="#headline-5">Læringsutbytte</a>
-<ul>
-<li><a href="#headline-6">Kunnskap</a>
+<li><a href="#headline-3">Inkonsekvens 1</a>
 </li>
-<li><a href="#headline-7">Ferdigheter</a>
+<li><a href="#headline-4">Inkonsekvens 2</a>
 </li>
-<li><a href="#headline-8">Generell kompetanse</a>
+<li><a href="#headline-5">Skala på grafen</a>
 </li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#headline-9">Emneplan (haust 2025)</a>
+<li><a href="#headline-6">Etterprøving</a>
 </li>
 </ul>
 </li>
@@ -80,101 +70,162 @@
 			
 <div id="outline-container-headline-1" class="outline-2">
 <h2 id="headline-1">
-Innleiing
+Skilsmisserate og fødselsdatoar
 </h2>
 <div id="outline-text-headline-1" class="outline-text-2">
-<p>Dette innlegget er starten på ein diskusjon med meg sjølv om korleis (og ikkje minst <em>kva</em>) vi skal undervise statistikk ved ingeniørutdanninga.</p>
+<p>Denne teorien kom eg over på <em>Den sorte diamant</em> i København, på utstillinga &#34;<a href="https://www.kb.dk/arrangementer/udstillinger/mellem-himmel-og-jord">Mellem Himmel og Jord</a>&#34; - om magiens og overtruas historie.
+Den går i korte trekk ut på at <em>skilsmisseraten er størst for ektepar der det er 90 dagar mellom fødselsdatoane</em> til ektefellane. I diskusjonen vidare kaller eg avstanden mellom fødselsdatoar for <em>datodifferanse</em>, og dersom eg skulle finne på å lage ein matematisk formeel som inneheld denne så vil symbolet vere \(D_d\).</p>
+<p>
+Dersom den eine ektefellen er fødd 17. mai og den andre 25. mai vil altså datodifferansen vere åtte dagar, og med symbol \(D_d = 25-17=8\). Og då teksten berre ser på datodifferanser mellom 0 og 180 tolker eg det slik at datodifferansen mellom 27. desember og 3. januar er sju dagar, ikkje 358.</p>
+<div id="outline-container-headline-2" class="outline-3">
+<h3 id="headline-2">
+Datagrunnlaget
+</h3>
+<div id="outline-text-headline-2" class="outline-text-3">
+<p>Data skal vere basert på &#34;den omfattende amerikanske undersøgelse af 10.000 skilsmisser.&#34; (Men utan andre opplysingar om undersøkinga. Ingen årstal, ingen kjelder, ingen ting.) Og framstillinga av dataer høgst suspekt, med fleire inkonsekvensar:</p>
 </div>
 </div>
-<div id="outline-container-headline-2" class="outline-2">
-<h2 id="headline-2">
-Bakgrunn
-</h2>
-<div id="outline-text-headline-2" class="outline-text-2">
-<p>Etter at den nye emneveggen vart innført har vi no fått eit emne på 5 stp som skal vere felles for <em>alle</em> studieretningar, frå data til maskin via elektro.  Det seier seg sjølv at 5 stp ikkje er mykje, og vi må ta ein grundig vurdering av kva som er <em>nødvendig</em> å ha med i pensum.</p>
 <div id="outline-container-headline-3" class="outline-3">
 <h3 id="headline-3">
-Rammeplan
+Inkonsekvens 1
 </h3>
 <div id="outline-text-headline-3" class="outline-text-3">
-<p>Frå <a href="https://www.uhr.no/_f/p1/i906ea646-71d3-4cea-8d7c-696786b6ae12/nasjonale-retningslinjer-for-ingeniorutdanning-vilkar-for-siving-vedtatt-12mai-2023.pdf">Nasjonale retningslinjer for ingenørutdanning</a> kan eg hente det vesle vi har av &#34;formelle krav&#34;:</p>
+<p>Ut frå teksten ser det ut som at vi kan samanfatte data i ein tabell:</p>
+<table>
+<thead>
+<tr>
+<th class="align-right">Dagar mellom fødselsdatoane</th>
+<th class="align-right">Antal skilsmisser i %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="align-right">45</td>
+<td class="align-right">17</td>
+</tr>
+<tr>
+<td class="align-right">90</td>
+<td class="align-right">40</td>
+</tr>
+<tr>
+<td class="align-right">135</td>
+<td class="align-right">15</td>
+</tr>
+<tr>
+<td class="align-right">180</td>
+<td class="align-right">14</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="align-right">Sum</td>
+<td class="align-right">86</td>
+</tr>
+</tbody>
+</table>
 <p>
-Forskrift om rammeplan for ingeniørutdanning krever grunnleggende kunnskaper i matematikk, og
-kunnskaper om hvordan matematikk kan integreres i ingeniørfaglig problemløsning. Alle ingeniørstudenter
-skal ha grunnleggende kunnskaper innen kalkulus, lineær algebra og statistikk. Videre må studiet
-inneholde tema som er relevant for det aktuelle programmet.</p>
-<div id="outline-container-headline-4" class="outline-4">
-<h4 id="headline-4">
-Temaer som dekkes:
-</h4>
-<div id="outline-text-headline-4" class="outline-text-4">
-<p>[…] Grunnleggende om sannsynlighetsbegrepet, betingede sannsynligheter,
-stokastiske variable, sannsynlighetsfordelinger, forventing og varians og sentralgrenseteoremet. Statistisk
-analyse skal omfatte estimering, konfidensintervall og hypotesetesting, korrelasjon og lineær regresjon.</p>
+Ut frå tabellen skulle altså 14 % av alle skilte par ha ein datodifferanse på noko anna enn desse fire verdiane. Men i teksten står det også at &#34;9.700 af de nævnte skilsmisser [har en datodifferanse på] 45, 90, 135 eller 180&#34;. Den einaste måten dette kan stemme med tabellen er dersom 86 % av 10.000 er 9.700. Det var den første uoverenstemmelsen.</p>
 </div>
 </div>
-<div id="outline-container-headline-5" class="outline-4">
-<h4 id="headline-5">
-Læringsutbytte
-</h4>
-<div id="outline-text-headline-5" class="outline-text-4">
-<div id="outline-container-headline-6" class="outline-5">
-<h5 id="headline-6">
-Kunnskap
-</h5>
-<div id="outline-text-headline-6" class="outline-text-5">
-<p>[…]</p>
-<ul>
-<li>Kandidaten kan forklare begreper og gjennomføre numeriske og analytiske beregninger innen de</li>
-</ul>
-<p>temaer som tas opp innen kalkulus, lineær algebra og statistikk, og innen andre temaer som tas opp
-i matematikkemnene.</p>
-<ul>
-<li>Kandidaten kan formulere matematiske modeller, fortrinnsvis med eksempler hentet fra eget ingeniørfaglige område.</li>
-</ul>
-<p>[…]</p>
-</div>
-</div>
-<div id="outline-container-headline-7" class="outline-5">
-<h5 id="headline-7">
-Ferdigheter
-</h5>
-<div id="outline-text-headline-7" class="outline-text-5">
-<p>[…]</p>
-<ul>
-<li><strong>Kandidaten kan innhente, analysere og presentere numeriske data</strong>.</li>
-</ul>
-<p>[…]</p>
-</div>
-</div>
-<div id="outline-container-headline-8" class="outline-5">
-<h5 id="headline-8">
-Generell kompetanse
-</h5>
-<div id="outline-text-headline-8" class="outline-text-5">
-<ul>
-<li>Kandidaten kan bruke matematikk til å kommunisere ingeniørfaglige problemstillinger.</li>
-<li>Kandidaten kan oppnå relevante svar på faglige problemstillinger, gjennom anvendelse av</li>
-</ul>
-<p>matematiske og statistiske undersøkelser og metoder.</p>
-<ul>
-<li>Kandidaten har matematisk forståelse som gir grunnlag for livslang læring.</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div id="outline-container-headline-9" class="outline-3">
-<h3 id="headline-9">
-Emneplan (haust 2025)
+<div id="outline-container-headline-4" class="outline-3">
+<h3 id="headline-4">
+Inkonsekvens 2
 </h3>
-<div id="outline-text-headline-9" class="outline-text-3">
-<p>Med utgangspunkt i rammeplanen har vi (hausten 2025) satt opp desse <strong>kunnskapsmåla</strong>:</p>
-<blockquote>
-<p>Etter fullført emne kjenner studenten til grunnleggjande teori om deskriptiv statistikk, sannsyn, fundamentale fordelingar, estimering av parametre og konfidensintervall, hypotesetesting, korrelasjon, enkel lineær regresjon, val av statistiske modellar og dataverktøy for statistikk.</p>
-</blockquote>
+<div id="outline-text-headline-4" class="outline-text-3">
+<p>Det er også ei grafisk framstilling av data, som tydeleg viser at det er &#34;toppar&#34; og &#34;botnar&#34; i data, noko som understreker at det er eit &#34;mønster&#34; her. Men ut frå grafen, som har prosent som skala på andreaksen (&#34;y-aksen&#34; eller &#34;ordinataksen&#34;), ser den enkle tabellen slik ut:</p>
+<table>
+<thead>
+<tr>
+<th class="align-right">Dagar mellom fødselsdatoane</th>
+<th class="align-right">Antal skilsmisser i %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="align-right">45</td>
+<td class="align-right">36</td>
+</tr>
+<tr>
+<td class="align-right">90</td>
+<td class="align-right">55</td>
+</tr>
+<tr>
+<td class="align-right">135</td>
+<td class="align-right">32</td>
+</tr>
+<tr>
+<td class="align-right">180</td>
+<td class="align-right">28</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="align-right">Sum</td>
+<td class="align-right">151</td>
+</tr>
+</tbody>
+</table>
+<p>
+Ja ha? 151 % av alle par som skiller seg har ein datodifferanse på 45, 90, 135 eller 180? Og i tillegg er er det ein drøss andre datodifferanser (65 ulike verdiar i alt) som har sin &#34;prosentdel&#34;. Så det er tydeleg at skalaen på grafen ikkje er i prosent. Det var inkonsekvens nummer 2.</p>
+</div>
+</div>
+<div id="outline-container-headline-5" class="outline-3">
+<h3 id="headline-5">
+Skala på grafen
+</h3>
+<div id="outline-text-headline-5" class="outline-text-3">
+<p>Kva skala er det då som skal brukast på andreaksen? Kanskje det er &#34;antal&#34;? Det går an å sjekke. Eg kan lese av alle punkta som er markert, og gi kvart punkt ein verdi som er \(k\cdot y_i)\) der \(y_i\) er verdien på andreaksen. Så summerer eg alle desse, og set summen lik 10 000:</p>
+<p>
+\[
+\sum_{i=1}^{65}k\cdot y_i = k\cdot \sum_{i=1}^{65}y_i = 10000
+\]
+Då kan eg finne \(k\) frå denne likninga som
+\[
+k = \frac{10000}{\sum_{i=1}^{65}y_i}
+\]
+og så setje denne inn. Når eg (etter beste evne) les av grafen får eg at \(\sum_{i=1}^{65}y_i=705\), som gir \(k=14,1844\), og dei avmerka punkta på grafen tilsvarer då</p>
+<table>
+<thead>
+<tr>
+<th class="align-right">Dagar mellom fødselsdatoane</th>
+<th class="align-right">Antal skilsmisser i %</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="align-right">45</td>
+<td class="align-right">5.1</td>
+</tr>
+<tr>
+<td class="align-right">90</td>
+<td class="align-right">7.8</td>
+</tr>
+<tr>
+<td class="align-right">135</td>
+<td class="align-right">4.5</td>
+</tr>
+<tr>
+<td class="align-right">180</td>
+<td class="align-right">4.0</td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td class="align-right">Sum</td>
+<td class="align-right">21.4</td>
+</tr>
+</tbody>
+</table>
+<p>
+Så altså: den grafiske framstillinga heng ikkje på greip.</p>
+</div>
+</div>
+<div id="outline-container-headline-6" class="outline-3">
+<h3 id="headline-6">
+Etterprøving
+</h3>
+<div id="outline-text-headline-6" class="outline-text-3">
+<p>Kan vi stole på data? Vanskeleg å sei. Går det an å etterprøve desse opplysingane? Tja, det er kanskje lov å søke om å få ut slike opplysingar, men eg ser ikkje at nokon nokon gang kan ha &#34;berettiga grunn&#34; til å gjere det. </p>
 </div>
 </div>
 </div>
@@ -198,15 +249,15 @@ Emneplan (haust 2025)
 
 <nav class="pager flex">
 	<div class="pager__item pager__item--prev">
-		<a class="pager__link" href="/koding_reglar/" rel="prev">
+		<a class="pager__link" href="/skrivereglar/" rel="prev">
 			<span class="pager__subtitle">«&thinsp;Previous</span>
-			<p class="pager__title">Koding i Emacs - godt å hugse på</p>
+			<p class="pager__title">Skrivereglar</p>
 		</a>
 	</div>
 	<div class="pager__item pager__item--next">
-		<a class="pager__link" href="/skrivereglar/" rel="next">
+		<a class="pager__link" href="/blog-mal/" rel="next">
 			<span class="pager__subtitle">Next&thinsp;»</span>
-			<p class="pager__title">Skrivereglar</p>
+			<p class="pager__title">Mal for blog-poster</p>
 		</a>
 	</div>
 </nav>

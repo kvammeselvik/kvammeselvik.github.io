@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Blog - Kvamme/Selvik</title>
@@ -16,6 +16,7 @@
 	<link rel="alternate" type="application/rss+xml" href="/tags/blog/index.xml" title="Kvamme/Selvik">
 
 	<link rel="shortcut icon" href="/favicon.ico">
+		
 		
 </head>
 <body class="body">
@@ -41,6 +42,59 @@
 	<header class="main__header">
 		<h1 class="main__title">Blog</h1>
 	</header><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/blog-mal/" rel="bookmark">
+			Mal for blog-poster
+			</a>
+		</h2>
+		
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+	        <div id="outline-container-headline-1" class="outline-2">
+<h2 id="headline-1">
+Om det tekniske oppsettet for bloggen
+</h2>
+<div id="outline-text-headline-1" class="outline-text-2">
+<p>Oppsettet av prosessen Emacs orgmode -&gt; Hugo -&gt; Github er ikkje heilt rett fram, men i prinsippet går det slik:</p>
+<div id="outline-container-headline-2" class="outline-3">
+<h3 id="headline-2">
+Emacs
+</h3>
+<div id="outline-text-headline-2" class="outline-text-3">
+<p>Eg må ha dette installert:</p>
+<ul>
+<li><a href="https://orgmode.org">orgmode</a> (for skrivinga)</li>
+<li>ox-hugo (for eksporten til <a href="https://gohugo.io">Hugos</a> markdown-format)</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-headline-3" class="outline-3">
+<h3 id="headline-3">
+Hugo
+</h3>
+<div id="outline-text-headline-3" class="outline-text-3">
+<p>Det lettaste er å installere det i WSL: <code class="verbatim">sudo apt install hugo</code></p>
+</div>
+</div>
+<div id="outline-container-headline-4" class="outline-3">
+<h3 id="headline-4">
+Github
+</h3>
+<div id="outline-text-headline-4" class="outline-text-3">
+<p>Her var det flest problem, men det løyste seg til slutt. For mange kommandoar til å liste kort her.</p>
+	        
+<div class="list__footer clearfix">
+  <a class="list__footer-readmore btn"
+     href="/blog-mal/">
+    Les meir …
+  </a>
+</div>
+
+	</div>
+</article>
+<article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
@@ -102,59 +156,6 @@ Front matter
 
 	</div>
 </article>
-<article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/first-post/" rel="bookmark">
-			Emacs orgmode og Hugo
-			</a>
-		</h2>
-		
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-	        <div id="outline-container-headline-1" class="outline-2">
-<h2 id="headline-1">
-Om det tekniske oppsettet for bloggen
-</h2>
-<div id="outline-text-headline-1" class="outline-text-2">
-<p>Oppsettet av prosessen Emacs orgmode -&gt; Hugo -&gt; Github er ikkje heilt rett fram, men i prinsippet går det slik:</p>
-<div id="outline-container-headline-2" class="outline-3">
-<h3 id="headline-2">
-Emacs
-</h3>
-<div id="outline-text-headline-2" class="outline-text-3">
-<p>Eg må ha dette installert:</p>
-<ul>
-<li><a href="https://orgmode.org">orgmode</a> (for skrivinga)</li>
-<li>ox-hugo (for eksporten til <a href="https://gohugo.io">Hugos</a> markdown-format)</li>
-</ul>
-</div>
-</div>
-<div id="outline-container-headline-3" class="outline-3">
-<h3 id="headline-3">
-Hugo
-</h3>
-<div id="outline-text-headline-3" class="outline-text-3">
-<p>Det lettaste er å installere det i WSL: <code class="verbatim">sudo apt install hugo</code></p>
-</div>
-</div>
-<div id="outline-container-headline-4" class="outline-3">
-<h3 id="headline-4">
-Github
-</h3>
-<div id="outline-text-headline-4" class="outline-text-3">
-<p>Her var det flest problem, men det løyser seg til slutt. For mange kommandoar til å liste kort her.</p>
-	        
-<div class="list__footer clearfix">
-  <a class="list__footer-readmore btn"
-     href="/first-post/">
-    Les meir …
-  </a>
-</div>
-
-	</div>
-</article>
 
 </main>
 
@@ -165,20 +166,20 @@ Github
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
 		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
 		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="http://localhost:1313/">
+		<input type="hidden" name="sitesearch" value="https://kvammeselvik.github.io/">
 	</form>
 </div>
 <div class="widget-recent widget">
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/skilsmisser/">Skilsmisser og fødselsdato</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/skrivereglar/">Skrivereglar</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/statistikk_i_ingeni%C3%B8r_0/">Statistikk i ingeniørutdanning 0</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/koding_reglar/">Koding i Emacs - godt å hugse på</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/skrivetest/">ox-hugo Front Matter Cheat Sheet</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/koding/">Koding i Emacs</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/matematikk/">Matematikk på nettsider</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/first-post/">Emacs orgmode og Hugo</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/canvas/"></a></li>
 		</ul>
 	</div>
 </div>
@@ -186,6 +187,8 @@ Github
 	<h4 class="widget__title">Categories</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item">
+				<a class="widget__link" href="/categories/hobby/">Hobby</a></li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/matematikk/">Matematikk</a></li>
 			<li class="widget__item">
