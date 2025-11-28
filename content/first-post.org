@@ -2,6 +2,7 @@
 #+DATE: 2025-10-25
 #+tags[]: emacs blog orgmode
 #+categories[]: skriving
+draft: true
 #+HUGO_SECTION: posts
 * Om det tekniske oppsettet for bloggen
 Oppsettet av prosessen Emacs orgmode -> Hugo -> Github er ikkje heilt rett fram, men i prinsippet går det slik:

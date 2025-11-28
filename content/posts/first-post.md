@@ -5,6 +5,9 @@ date = 2025-10-25
 draft = false
 +++
 
+draft: true
+
+
 ## Om det tekniske oppsettet for bloggen {#om-det-tekniske-oppsettet-for-bloggen}
 
 Oppsettet av prosessen Emacs orgmode -&gt; Hugo -&gt; Github er ikkje heilt rett fram, men i prinsippet går det slik:
