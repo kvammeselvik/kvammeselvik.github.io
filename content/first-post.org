@@ -1,8 +1,8 @@
 #+TITLE: Emacs orgmode og Hugo
 #+DATE: 2025-10-25
-#+tags[]: emacs blog orgmode
+HUGO_DRAFT: true
 #+categories[]: skriving
-draft: true
+#+tags[]: emacs blog orgmode
 #+HUGO_SECTION: posts
 * Om det tekniske oppsettet for bloggen
 Oppsettet av prosessen Emacs orgmode -> Hugo -> Github er ikkje heilt rett fram, men i prinsippet går det slik:

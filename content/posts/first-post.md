@@ -5,7 +5,9 @@ date = 2025-10-25
 draft = false
 +++
 
-draft: true
+HUGO_DRAFT: true
+\#+categories[]: skriving
+\#+tags[]: emacs blog orgmode
 
 
 ## Om det tekniske oppsettet for bloggen {#om-det-tekniske-oppsettet-for-bloggen}
