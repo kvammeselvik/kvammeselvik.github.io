@@ -1,6 +1,6 @@
 #+TITLE: Emacs orgmode og Hugo
 #+DATE: 2025-10-25
-HUGO_DRAFT: true
+#+hugo_draft: true
 #+categories[]: skriving
 #+tags[]: emacs blog orgmode
 #+HUGO_SECTION: posts
