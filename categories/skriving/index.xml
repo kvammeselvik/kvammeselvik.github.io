@@ -52,9 +52,9 @@ Oppsett
 &lt;/h2&gt;
 &lt;div id="outline-text-headline-2" class="outline-text-2"&gt;
 &lt;p&gt;I oppsettet av Emacs må eg ha på plass Babel. Det installerer eg som alle andre pakker via &lt;code class="verbatim"&gt;package-list-packages&lt;/code&gt; (leit etter &lt;code class="verbatim"&gt;babel&lt;/code&gt; og &lt;code class="verbatim"&gt;ob-ipython&lt;/code&gt;). Eg må også vite korleis eg skal få tak i Python-programmet (er det rett namn?); det er alltid litt krøkkete. Inntil vidare bruker eg denne kommandoen:&lt;/p&gt;
-&lt;div class="src src-text"&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;(setq org-babel-python-command &amp;#34;C:/Users/aasmu/AppData/Local/Programs/Python/Python313/python.exe&amp;#34;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
+&lt;pre class="example"&gt;
+(setq org-babel-python-command &amp;#34;C:/Users/aasmu/AppData/Local/Programs/Python/Python313/python.exe&amp;#34;)
+&lt;/pre&gt;
 &lt;p&gt;
 Og så må eg fortelje Emacs kva koder eg vil bruke:&lt;/p&gt;</description></item><item><title>Koding i Emacs</title><link>https://kvammeselvik.github.io/koding/</link><pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/koding/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2"&gt;
 &lt;h2 id="headline-1"&gt;
@@ -111,4 +111,4 @@ Hugo
 Github
 &lt;/h3&gt;
 &lt;div id="outline-text-headline-4" class="outline-text-3"&gt;
-&lt;p&gt;Her var det flest problem, men det løyser seg til slutt. For mange kommandoar til å liste kort her.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Her var det flest problem, men det løyste seg til slutt. For mange kommandoar til å liste kort her.&lt;/p&gt;</description></item></channel></rss>

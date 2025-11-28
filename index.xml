@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kvamme/Selvik</title><link>https://kvammeselvik.github.io/</link><description>Recent content on Kvamme/Selvik</description><generator>Hugo</generator><language>no-nn</language><lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kvammeselvik.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Skrivereglar</title><link>https://kvammeselvik.github.io/posts/skrivereglar/</link><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/posts/skrivereglar/</guid><description>&lt;h2 id="ulike-skrivereglar-i-orgmode"&gt;Ulike skrivereglar i Orgmode&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kvamme/Selvik</title><link>https://kvammeselvik.github.io/</link><description>Recent content on Kvamme/Selvik</description><generator>Hugo</generator><language>no-nn</language><lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kvammeselvik.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Skilsmisser og fødselsdato</title><link>https://kvammeselvik.github.io/posts/skilsmisser/</link><pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/posts/skilsmisser/</guid><description>&lt;h2 id="skilsmisserate-og-fødselsdatoar"&gt;Skilsmisserate og fødselsdatoar&lt;/h2&gt;
+&lt;p&gt;Denne teorien kom eg over på &lt;em&gt;Den sorte diamant&lt;/em&gt; i København, på utstillinga &amp;ldquo;&lt;a href="https://www.kb.dk/arrangementer/udstillinger/mellem-himmel-og-jord"&gt;Mellem Himmel og Jord&lt;/a&gt;&amp;rdquo; - om magiens og overtruas historie.
+Den går i korte trekk ut på at &lt;em&gt;skilsmisseraten er størst for ektepar der det er 90 dagar mellom fødselsdatoane&lt;/em&gt; til ektefellane. I diskusjonen vidare kaller eg avstanden mellom fødselsdatoar for &lt;em&gt;datodifferanse&lt;/em&gt;, og dersom eg skulle finne på å lage ein matematisk formeel som inneheld denne så vil symbolet vere \(D_d\).&lt;/p&gt;</description></item><item><title>Skilsmisser og fødselsdato</title><link>https://kvammeselvik.github.io/skilsmisser/</link><pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/skilsmisser/</guid><description>&lt;div id="outline-container-headline-1" class="outline-2"&gt;
+&lt;h2 id="headline-1"&gt;
+Skilsmisserate og fødselsdatoar
+&lt;/h2&gt;
+&lt;div id="outline-text-headline-1" class="outline-text-2"&gt;
+&lt;p&gt;Denne teorien kom eg over på &lt;em&gt;Den sorte diamant&lt;/em&gt; i København, på utstillinga &amp;#34;&lt;a href="https://www.kb.dk/arrangementer/udstillinger/mellem-himmel-og-jord"&gt;Mellem Himmel og Jord&lt;/a&gt;&amp;#34; - om magiens og overtruas historie.
+Den går i korte trekk ut på at &lt;em&gt;skilsmisseraten er størst for ektepar der det er 90 dagar mellom fødselsdatoane&lt;/em&gt; til ektefellane. I diskusjonen vidare kaller eg avstanden mellom fødselsdatoar for &lt;em&gt;datodifferanse&lt;/em&gt;, og dersom eg skulle finne på å lage ein matematisk formeel som inneheld denne så vil symbolet vere \(D_d\).&lt;/p&gt;</description></item><item><title>Skrivereglar</title><link>https://kvammeselvik.github.io/posts/skrivereglar/</link><pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/posts/skrivereglar/</guid><description>&lt;h2 id="ulike-skrivereglar-i-orgmode"&gt;Ulike skrivereglar i Orgmode&lt;/h2&gt;
 &lt;h3 id="front-matter"&gt;Front matter&lt;/h3&gt;
 &lt;p&gt;Dette er kommandoar eg kan skrive i orgmode for å ein tilsvarande kommando i front matter i .md-fila.&lt;/p&gt;
 &lt;table&gt;
@@ -93,16 +101,16 @@ Oppsett
 &lt;/h2&gt;
 &lt;div id="outline-text-headline-2" class="outline-text-2"&gt;
 &lt;p&gt;I oppsettet av Emacs må eg ha på plass Babel. Det installerer eg som alle andre pakker via &lt;code class="verbatim"&gt;package-list-packages&lt;/code&gt; (leit etter &lt;code class="verbatim"&gt;babel&lt;/code&gt; og &lt;code class="verbatim"&gt;ob-ipython&lt;/code&gt;). Eg må også vite korleis eg skal få tak i Python-programmet (er det rett namn?); det er alltid litt krøkkete. Inntil vidare bruker eg denne kommandoen:&lt;/p&gt;
-&lt;div class="src src-text"&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;(setq org-babel-python-command &amp;#34;C:/Users/aasmu/AppData/Local/Programs/Python/Python313/python.exe&amp;#34;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;
+&lt;pre class="example"&gt;
+(setq org-babel-python-command &amp;#34;C:/Users/aasmu/AppData/Local/Programs/Python/Python313/python.exe&amp;#34;)
+&lt;/pre&gt;
 &lt;p&gt;
 Og så må eg fortelje Emacs kva koder eg vil bruke:&lt;/p&gt;</description></item><item><title>Koding i Emacs - godt å hugse på</title><link>https://kvammeselvik.github.io/posts/koding_reglar/</link><pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/posts/koding_reglar/</guid><description>&lt;h2 id="innleiing"&gt;Innleiing&lt;/h2&gt;
 &lt;p&gt;Her samlar eg ein del nyttige ting om å skrive (og utføre) koding i Emacs.&lt;/p&gt;
 &lt;h2 id="oppsett"&gt;Oppsett&lt;/h2&gt;
 &lt;p&gt;I oppsettet av Emacs må eg ha på plass Babel. Det installerer eg som alle andre pakker via &lt;code&gt;package-list-packages&lt;/code&gt; (leit etter &lt;code&gt;babel&lt;/code&gt; og &lt;code&gt;ob-ipython&lt;/code&gt;). Eg må også vite korleis eg skal få tak i Python-programmet (er det rett namn?); det er alltid litt krøkkete. Inntil vidare bruker eg denne kommandoen:&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code class="language-nil" data-lang="nil"&gt;(setq org-babel-python-command &amp;#34;C:/Users/aasmu/AppData/Local/Programs/Python/Python313/python.exe&amp;#34;)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Og så må eg fortelje Emacs kva koder eg vil bruke:&lt;/p&gt;</description></item><item><title>ox-hugo Front Matter Cheat Sheet</title><link>https://kvammeselvik.github.io/posts/skrivetest/</link><pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/posts/skrivetest/</guid><description>&lt;h2 id="ox-hugo-frontmatter-cheatsheet"&gt;ox-hugo Front Matter Cheat Sheet&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;(setq org-babel-python-command &amp;#34;C:/Users/aasmu/AppData/Local/Programs/Python/Python313/python.exe&amp;#34;)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Og så må eg fortelje Emacs kva koder eg vil bruke:&lt;/p&gt;</description></item><item><title>ox-hugo Front Matter Cheat Sheet</title><link>https://kvammeselvik.github.io/posts/skrivetest/</link><pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/posts/skrivetest/</guid><description>&lt;h2 id="ox-hugo-frontmatter-cheatsheet"&gt;ox-hugo Front Matter Cheat Sheet&lt;/h2&gt;
 &lt;p&gt;A quick reference table for mapping Hugo front matter (TOML/YAML) keys to
 their corresponding Org-mode / ox-hugo syntax.&lt;/p&gt;
 &lt;table&gt;
@@ -410,7 +418,7 @@ Hugo
 Github
 &lt;/h3&gt;
 &lt;div id="outline-text-headline-4" class="outline-text-3"&gt;
-&lt;p&gt;Her var det flest problem, men det løyser seg til slutt. For mange kommandoar til å liste kort her.&lt;/p&gt;</description></item><item><title>Emacs orgmode og Hugo</title><link>https://kvammeselvik.github.io/posts/first-post/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/posts/first-post/</guid><description>&lt;h2 id="om-det-tekniske-oppsettet-for-bloggen"&gt;Om det tekniske oppsettet for bloggen&lt;/h2&gt;
+&lt;p&gt;Her var det flest problem, men det løyste seg til slutt. For mange kommandoar til å liste kort her.&lt;/p&gt;</description></item><item><title>Emacs orgmode og Hugo</title><link>https://kvammeselvik.github.io/posts/first-post/</link><pubDate>Sat, 25 Oct 2025 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/posts/first-post/</guid><description>&lt;h2 id="om-det-tekniske-oppsettet-for-bloggen"&gt;Om det tekniske oppsettet for bloggen&lt;/h2&gt;
 &lt;p&gt;Oppsettet av prosessen Emacs orgmode -&amp;gt; Hugo -&amp;gt; Github er ikkje heilt rett fram, men i prinsippet går det slik:&lt;/p&gt;
 &lt;h3 id="emacs"&gt;Emacs&lt;/h3&gt;
 &lt;p&gt;Eg må ha dette installert:&lt;/p&gt;
@@ -421,4 +429,7 @@ Github
 &lt;h3 id="hugo"&gt;Hugo&lt;/h3&gt;
 &lt;p&gt;Det lettaste er å installere det i WSL: &lt;code&gt;sudo apt install hugo&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id="github"&gt;Github&lt;/h3&gt;
-&lt;p&gt;Her var det flest problem, men det løyser seg til slutt. For mange kommandoar til å liste kort her.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Her var det flest problem, men det løyste seg til slutt. For mange kommandoar til å liste kort her.&lt;/p&gt;</description></item><item><title/><link>https://kvammeselvik.github.io/posts/canvas/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kvammeselvik.github.io/posts/canvas/</guid><description>&lt;h2 id="innspill-og-spørsmål-til-høringen"&gt;Innspill og spørsmål til høringen&lt;/h2&gt;
+&lt;p&gt;Vi ber om fakultetenes tilbakemelding på det fremlagte mandatet. For å sikre en strukturert behandling av innspillene, ber vi om at dere spesielt svarer på følgende spørsmål:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1. Støtter fakultetet hovedtrekkene i det foreslåtte mandatet for TeCopp?&lt;/strong&gt;
+I utgangspunktet støttes mandatet og tanken om at TeCopp bør formaliseres og få sin rettmessige plass på et organisasjonskart. Utfordringen ligger mer i det at det meste av det som skisseres i mandatet drives av ressurser ute i fakultetene mer enn ALU. [Men det gjer vel ingen ting, så lenge TeCopp skal bli eit &amp;ldquo;Team&amp;rdquo;? Eller har eg misforstått?]&lt;/p&gt;</description></item></channel></rss>
