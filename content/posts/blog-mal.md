@@ -1,7 +1,7 @@
 +++
-title = "Emacs orgmode og Hugo"
+title = "Mal for blog-poster"
 author = ["Aasmund Kvamme"]
-date = 2025-10-25
+date = 2025-11-28
 draft = true
 +++
 

@@ -1,5 +1,5 @@
-#+TITLE: Emacs orgmode og Hugo
-#+DATE: 2025-10-25
+#+TITLE: Mal for blog-poster
+#+DATE: 2025-11-28
 #+hugo_draft: true
 #+categories[]: skriving
 #+tags[]: emacs blog orgmode
