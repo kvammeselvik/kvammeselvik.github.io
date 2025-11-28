@@ -25,7 +25,7 @@ Det lettaste er å installere det i WSL: `sudo apt install hugo`
 
 ### Github {#github}
 
-Her var det flest problem, men det løyser seg til slutt. For mange kommandoar til å liste kort her.
+Her var det flest problem, men det løyste seg til slutt. For mange kommandoar til å liste kort her.
 
 
 ### MathJax {#mathjax}

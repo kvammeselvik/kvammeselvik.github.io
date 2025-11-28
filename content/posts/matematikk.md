@@ -17,3 +17,5 @@ Men det store problemet kjem når vi skal vise matematiske formlar på nettsider
 2.  I `config.toml` set eg parameteren `mathjax = true` og `mathjaxPath = https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js`
 
 Dette fungerer ikkje. Men så byta eg `mathjaxPath` ut med `https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js` (som er den lenka [MathJax sjølv skriv om](https://www.mathjax.org/#gettingstarted)). Og no fungerer det strålande. MathJax skriv at "If you use the snippet above, you will not need to change the version number in the src attribute every time the version of MathJax changes." - det tolkar eg til at eg ikkje treng å gjere noko?  Uansett: det fungerer.
+
+Ny setning.
