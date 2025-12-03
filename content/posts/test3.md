@@ -2,7 +2,9 @@
 title = "Test 3"
 author = ["Aasmund Kvamme"]
 date = 2025-12-03
-draft = false
+tags = ["emacs", "blog", "orgmode"]
+categories = ["skriving"]
+draft = true
 +++
 
-Denne vert _ikkje_ publisert, håper eg.
+Dette vert ikkje publisert?

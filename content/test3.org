@@ -1,8 +1,8 @@
 #+TITLE: Test 3
 #+DATE: 2025-12-03
-#+CATEGORIES[]: skriving
+#+hugo_categories: skriving
 #+HUGO_SECTION: posts
-#+DRAFT: true
-#+TAGS[]: emacs blog orgmode
+#+hugo_draft: true
+#+hugo_tags: emacs blog orgmode
 
-Denne vert /ikkje/ publisert, håper eg.
+Dette vert ikkje publisert?
