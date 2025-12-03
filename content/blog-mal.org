@@ -31,4 +31,8 @@ Eg kan tenkje meg å utvikle snarvegar for
  - [ ] Korleis setje inn bilete?
  - [X] Korleis kan eg endre versjon av Ubuntu i WSL frå heimePC til jobbPC?
  - [X] Korleis kan eg autorisere meg frå jobbPC?
- 
+* "Dagleg arbeid"
+** Enkel artikkel
+For å lage ein enkel artikkel skal eg kopiere denne malen, fjerne alt innhald og skrive i veg.
+** Slette artikkel
+Dersom eg må gjere noko med sjølve /strukturen/ i nettsida (fjerne sider frå alle stader) må eg /bygge om/ nettstaden. Det gjer eg med den enkle kommandoen =hugo= i WSL. 

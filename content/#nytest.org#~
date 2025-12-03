@@ -1,0 +1,26 @@
+#+TITLE: Ny test
+#+DATE: 2025-12-02
+#+TAGS[]: emacs blog orgmode
+#+CATEGORIES[]: skriving
+#+HUGO_SECTION: posts
+
+#+TITLE: Test 2
+#+DATE: 2025-12-02
+#+DRAFT: true#+TAGS[]: emacs blog orgmode
+#+CATEGORIES[]: skriving
+#+HUGO_SECTION: posts
+
+#+TITLE: Test 3
+#+DATE: 2025-12-02
+#+DRAFT: true#+TAGS[]: emacs blog orgmode
+#+CATEGORIES[]: skriving
+#+HUGO_SECTION: posts
+
+#+TITLE: Test 4
+#+DATE: 2025-12-02
+#+DRAFT: true#+TAGS[]: emacs blog orgmode
+#+CATEGORIES[]: skriving
+#+HUGO_SECTION: posts
+#+DRAFT: true
+#+TAGS[]: emacs blog orgmode
+

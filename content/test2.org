@@ -1,0 +1,9 @@
+#+TITLE: Test 2
+#+DATE: 2025-12-03
+#+DRAFT: true#+TAGS[]: emacs blog orgmode
+#+CATEGORIES[]: skriving
+#+HUGO_SECTION: posts
+#+DRAFT: true
+#+TAGS[]: emacs blog orgmode
+
+Denne artikelen vert /ikkje/ publisert.

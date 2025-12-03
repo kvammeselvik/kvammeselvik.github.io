@@ -1,0 +1,38 @@
+#+TITLE: Mal for blog-poster
+#+DATE: 2025-11-28
+#+hugo_draft: true
+#+categories[]: skriving
+#+tags[]: emacs blog orgmode
+#+HUGO_SECTION: posts
+* Om det tekniske oppsettet for bloggen
+Oppsettet av prosessen Emacs orgmode -> Hugo -> Github er ikkje heilt rett fram, men i prinsippet går det slik:
+** Emacs
+Eg må ha dette installert:
+ - [[https://orgmode.org][orgmode]] (for skrivinga)
+ - ox-hugo (for eksporten til [[https://gohugo.io][Hugos]] markdown-format)
+** Hugo
+Det lettaste er å installere det i WSL: =sudo apt install hugo=
+** Github
+Her var det flest problem, men det løyste seg til slutt. For mange kommandoar til å liste kort her.
+** MathJax
+Dette vart løyst; sjå denne.
+* Vidare utvikling (i Emacs) [1/2]
+Eg kan tenkje meg å utvikle snarvegar for 
+ - [X] Automatisering av "front matter". No må eg
+   - Opne ei fil i rett sti (=//wsl.localhost/Ubuntu-22.04/home/aasmund/kvammeselvik/content=)
+   - Kopiere inn "front matter" frå ei anna fil
+   - Rette opp felta #+TITLE og #+Date 
+ - [ ] Enklare git til Github. No må eg køyre dei tre kommandoane
+   - =git add .=
+   - =git commit -m "Tekst"=
+   - =git push=
+* Ting å sjekke ut [2/4]
+ - [ ] Korleis kan eg lenke mellom ulike postar?
+ - [ ] Korleis setje inn bilete?
+ - [X] Korleis kan eg endre versjon av Ubuntu i WSL frå heimePC til jobbPC?
+ - [X] Korleis kan eg autorisere meg frå jobbPC?
+* "Dagleg arbeid"
+** Enkel artikkel
+For å lage ein enkel artikkel skal eg kopiere denne malen, fjerne alt innhald og skrive i veg.
+** Slette artikkel
+Dersom eg må gjere noko med sjølve /strukturen/ i nettsida (fjerne sider frå alle stader) må eg /bygge om/ nettstaden. Det gjer eg med den enkle kommandoen =hugo= i WSL. 
