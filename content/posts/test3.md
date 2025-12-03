@@ -1,0 +1,8 @@
++++
+title = "Test 3"
+author = ["Aasmund Kvamme"]
+date = 2025-12-03
+draft = false
++++
+
+Denne vert _ikkje_ publisert, håper eg.
