@@ -2,7 +2,7 @@
 title = "Skilsmisser og fødselsdato"
 author = ["Aasmund Kvamme"]
 date = 2025-11-28
-draft = false
+draft = true
 +++
 
 ## Skilsmisserate og fødselsdatoar {#skilsmisserate-og-fødselsdatoar}
