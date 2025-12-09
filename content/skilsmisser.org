@@ -2,7 +2,7 @@
 #+DATE: 2025-11-28
 #+tags[]: statistikk skilsmisse
 #+categories[]: hobby
-#+hugo_draft: true
+#+hugo_draft: false
 #+HUGO_SECTION: posts
 * Skilsmisserate og fødselsdatoar
 Denne teorien kom eg over på /Den sorte diamant/ i København, på utstillinga "[[https://www.kb.dk/arrangementer/udstillinger/mellem-himmel-og-jord][Mellem Himmel og Jord]]" - om magiens og overtruas historie.
