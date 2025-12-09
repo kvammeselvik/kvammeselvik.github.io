@@ -1,0 +1,9 @@
+#+TITLE: Læring med programmerbar kalkulator
+#+DATE: 2025-12-09
+#+hugo_categories: skriving
+#+HUGO_SECTION: posts
+#+hugo_draft: true
+#+hugo_tags: emacs blog orgmode
+* Læring med programmerbar kalkulator
+Dette er ein tjuvkopi av ein artikkel skrevet i 1979 for det amerikanske tidsskriftet (?) "HP Digest", 1979. Forfattar er John J. Wavrik.
+** How programmable calculators can help kids learn.
