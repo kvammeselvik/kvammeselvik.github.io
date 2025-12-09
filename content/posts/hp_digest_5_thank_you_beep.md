@@ -2,9 +2,9 @@
 title = "Thank you, Beep …!"
 author = ["Aasmund Kvamme"]
 date = 2025-12-09
-tags = ["emacs", "blog", "orgmode"]
+tags = ["HP", "digitalisering"]
 categories = ["skriving"]
-draft = true
+draft = false
 +++
 
 ## Thank you, Beep ...! {#thank-you-beep-dot-dot-dot}

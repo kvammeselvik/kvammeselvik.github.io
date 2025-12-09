@@ -2,8 +2,8 @@
 #+DATE: 2025-12-09
 #+hugo_categories: skriving
 #+HUGO_SECTION: posts
-#+hugo_draft: true
-#+hugo_tags: emacs blog orgmode
+#+hugo_draft: false
+#+hugo_tags: HP digitalisering 
 * Thank you, Beep ...!
 Dette er ein tjuvkopi av ei novelle frå det amerikanske tidsskriftet (?) "HP Digest", 1979. Forfattar er Gordon Dickson.
 
