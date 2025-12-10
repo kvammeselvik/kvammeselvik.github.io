@@ -5,11 +5,11 @@
 #+hugo_draft: false
 #+hugo_tags: HP digitalisering 
 #+ATTR_HTML: :width 100% :height 100% :class border-2 :alt Description of the image :title Image title
-[[./XX2050.png]]
+[[./XX2050.png][Bilete av XX2050]]
 
-* Thank you, Beep ...!
 Dette er ein tjuvkopi av ei novelle frå det amerikanske tidsskriftet (?) "HP Digest", 1979. Forfattar er Gordon Dickson.
 
+* Thank you, Beep ...!
 In this story, written especially for the Digest, science-fiction writer Gordon Dickson takes us to the mid-21st century where we discover the amazing HP-XX2050, a handheld calculator with surprising capabilities. Dickson is the author of more than 150 short stories and thirty-three novels including SOLDIER, ASK NOT, winner of the World Science Fiction "Hugo" Award in 1965, CALL HIM LORD, winner of the Science Fiction Writers of America Nebula Award in 1966, and DRAGON AND THE GEORGE, winner of the 1976 August Derleth Award of the British Fantasy Society.
 
 WALTER JENSEN, a middlemanagement executive in the year 2025, had just left a meeting in Tahiti, and was on his way to a conference in London, England, hand-carrying some very secret and valuable commercial information. He had taken a short-hop shuttle from Tahiti to Melbourne, Australia, and there caught the sub-orbital flight from Melbourne to London. The day had been a long one, and the pressures of business in the twenty-first century were severe. He sank into his seat compartment aboard the sub-orbital rocketliner of Pacificon Flight number 859 with a sigh of relief. Closing his eyes, he dozed off.
