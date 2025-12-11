@@ -21,10 +21,8 @@ Det er satt av seks  dataregistre spesielt til dette:
 
 No kan eg rekne ut dei ulike tinga eg treng ved å kombinere desse:
 ** Utrekningar
-*** Gjennomsnitt
-Formelen er \(\overline{X} = \frac{1}{n}\Sigma X_i\), og det vert då
 
-=RCL 11=
-=RCL 16
-=/=
-
+| Funksjon         | Formel                    | Taster            |
+|------------------+---------------------------+-------------------|
+| \(\overline{X}\) | \(\frac{1}{n}\Sigma X_i\) | =RCL 11, RCL 15, /= |
+| \(\overline{Y}\) | \(\frac{1}{n}\Sigma Y_i\) | =RCL 12, RCL 15, /= |
