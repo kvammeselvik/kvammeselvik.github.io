@@ -3,8 +3,10 @@
 #+hugo_categories: skriving
 #+HUGO_SECTION: posts
 #+hugo_draft: false
-#+hugo_tags: HP digitalisering 
-#+ATTR_HTML: :width 100% :height 100% :class border-2 :alt Description of the image :title Image title
+#+hugo_tags: HP digitalisering
+
+
+#+ATTR_HTML: :width 100% :height 100% :class border-2 :alt Illustrasjon av den fiktive XX2050 :title XX2050
 [[file:XX2050.png][Bilete av XX2050]]
 
 Dette er ein tjuvkopi av ei novelle frå det amerikanske tidsskriftet (?) "HP Digest", 1979. Forfattar er Gordon Dickson.

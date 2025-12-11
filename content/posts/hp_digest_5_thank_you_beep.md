@@ -7,7 +7,7 @@ categories = ["skriving"]
 draft = false
 +++
 
-<div class="border-2" title="Image title">
+<div class="border-2" title="XX2050">
 
 [Bilete av XX2050](/ox-hugo/XX2050.png)
 
