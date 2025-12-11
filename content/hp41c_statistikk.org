@@ -10,7 +10,15 @@ I utgangspunktet har HP-kalkulatorane frå slutten av 70- og tidleg 80-tal ikkje
 
 Det er satt av seks  dataregistre spesielt til dette:
 
-| Register | Innhald      |
-|----------+--------------|
-| R11      | \(\Sum X_i\) |
-|          |              |
+| Register | Innhald                 |
+|----------+-------------------------|
+| R11      | \(\Sigma X_i\)          |
+| R12      | \(\Sigma X_i^2\)        |
+| R13      | \(\Sigma Y_i\)          |
+| R14      | \(\Sigma Y_i^2\)        |
+| R15      | \(\Sigma X_i\cdot Y_i\) |
+| R16      | \(n\)                   |
+
+No kan eg rekne ut dei ulike tinga eg treng ved å kombinere desse:
+
+

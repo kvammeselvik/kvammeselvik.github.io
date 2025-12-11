@@ -18,5 +18,5 @@ Dette fungerer heller ikkje. Men så byta eg =mathjaxPath= ut med =https://cdn.j
 
 Så altså: eg skal kunne skrive formlar som
 \[
-\Sum_{i=0}^n X_i
+\Sigma_{i=0}^n X_i
 \]

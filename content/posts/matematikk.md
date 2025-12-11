@@ -20,5 +20,5 @@ Dette fungerer heller ikkje. Men så byta eg `mathjaxPath` ut med `https://cdn.j
 
 Så altså: eg skal kunne skrive formlar som
 \\[
-\Sum\_{i=0}^n X\_i
+\Sigma\_{i=0}^n X\_i
 \\]
