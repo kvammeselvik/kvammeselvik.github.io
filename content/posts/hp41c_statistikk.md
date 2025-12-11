@@ -30,7 +30,9 @@ No kan eg rekne ut dei ulike tinga eg treng ved å kombinere desse:
 
 ### Utrekningar {#utrekningar}
 
-| Funksjon           | Formel                       | Taster              |
-|--------------------|------------------------------|---------------------|
-| \\(\overline{X}\\) | \\(\frac{1}{n}\Sigma X\_i\\) | `RCL 11, RCL 15, /` |
-| \\(\overline{Y}\\) | \\(\frac{1}{n}\Sigma Y\_i\\) | `RCL 12, RCL 15, /` |
+| Funksjon           | Formel                                                   | Taster                                                     |
+|--------------------|----------------------------------------------------------|------------------------------------------------------------|
+| \\(\overline{X}\\) | \\(\frac{1}{n}\Sigma X\\)                                | `RCL 11, RCL 16, /`                                        |
+| \\(\overline{Y}\\) | \\(\frac{1}{n}\Sigma Y\\)                                | `RCL 13, RCL 16, /`                                        |
+| \\(S\_X\\)         | \\(\sqrt{\frac{\Sigma X^2-n\cdot\overline{X}^2}{n-1}}\\) | `RCL 12, RCL 11, X^2, RCL 16, /, -, RCL 16, 1, -, /, SQRT` |
+|                    |                                                          |                                                            |
