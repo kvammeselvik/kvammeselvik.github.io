@@ -12,11 +12,28 @@
  &lt;tbody&gt;
  &lt;tr&gt;
  &lt;td&gt;R11&lt;/td&gt;
- &lt;td&gt;\(\Sum X_i\)&lt;/td&gt;
+ &lt;td&gt;\(\Sigma X_i\)&lt;/td&gt;
  &lt;/tr&gt;
  &lt;tr&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;R12&lt;/td&gt;
+ &lt;td&gt;\(\Sigma X_i^2\)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;R13&lt;/td&gt;
+ &lt;td&gt;\(\Sigma Y_i\)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;R14&lt;/td&gt;
+ &lt;td&gt;\(\Sigma Y_i^2\)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;R15&lt;/td&gt;
+ &lt;td&gt;\(\Sigma X_i\cdot Y_i\)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;R16&lt;/td&gt;
+ &lt;td&gt;\(n\)&lt;/td&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
-&lt;/table&gt;</description></item></channel></rss>
+&lt;/table&gt;
+&lt;p&gt;No kan eg rekne ut dei ulike tinga eg treng ved å kombinere desse:&lt;/p&gt;</description></item></channel></rss>
