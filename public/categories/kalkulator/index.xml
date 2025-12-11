@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kalkulator on Kvamme/Selvik</title>
+    <link>https://kvammeselvik.github.io/categories/kalkulator/</link>
+    <description>Recent content in Kalkulator on Kvamme/Selvik</description>
+    <generator>Hugo</generator>
+    <language>no-nn</language>
+    <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://kvammeselvik.github.io/categories/kalkulator/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statistikk på HP41C</title>
+      <link>https://kvammeselvik.github.io/posts/hp41c_statistikk/</link>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://kvammeselvik.github.io/posts/hp41c_statistikk/</guid>
+      <description>&lt;h2 id=&#34;statistikk-på-hp41c&#34;&gt;Statistikk på HP41C&lt;/h2&gt;&#xA;&lt;h3 id=&#34;innleiing&#34;&gt;Innleiing&lt;/h3&gt;&#xA;&lt;p&gt;I utgangspunktet har HP-kalkulatorane frå slutten av 70- og tidleg 80-tal ikkje så veldig mange innebygde funksjonar for deskriptiv statistikk. Men dei har eit sinnrikt system for å akkumulere data, og så kan eg sjølv rekne ut det eg treng.&lt;/p&gt;&#xA;&lt;p&gt;Det er satt av seks  dataregistre spesielt til dette:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Register&lt;/th&gt;&#xA;          &lt;th&gt;Innhald&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;R11&lt;/td&gt;&#xA;          &lt;td&gt;\(\Sum X_i\)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
+  </channel>
+</rss>

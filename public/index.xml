@@ -6,8 +6,22 @@
     <description>Recent content on Kvamme/Selvik</description>
     <generator>Hugo</generator>
     <language>no-nn</language>
-    <lastBuildDate>Tue, 09 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://kvammeselvik.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Statistikk på HP41C</title>
+      <link>https://kvammeselvik.github.io/hp41c_statistikk/</link>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://kvammeselvik.github.io/hp41c_statistikk/</guid>
+      <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Statistikk på HP41C&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-2&#34;&gt;&#xA;Innleiing&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;I utgangspunktet har HP-kalkulatorane frå slutten av 70- og tidleg 80-tal ikkje så veldig mange innebygde funksjonar for deskriptiv statistikk. Men dei har eit sinnrikt system for å akkumulere data, og så kan eg sjølv rekne ut det eg treng.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;Det er satt av seks  dataregistre spesielt til dette:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;Register&lt;/th&gt;&#xA;&lt;th&gt;Innhald&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;R11&lt;/td&gt;&#xA;&lt;td&gt;\(\Sum X_i\)&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>Statistikk på HP41C</title>
+      <link>https://kvammeselvik.github.io/posts/hp41c_statistikk/</link>
+      <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://kvammeselvik.github.io/posts/hp41c_statistikk/</guid>
+      <description>&lt;h2 id=&#34;statistikk-på-hp41c&#34;&gt;Statistikk på HP41C&lt;/h2&gt;&#xA;&lt;h3 id=&#34;innleiing&#34;&gt;Innleiing&lt;/h3&gt;&#xA;&lt;p&gt;I utgangspunktet har HP-kalkulatorane frå slutten av 70- og tidleg 80-tal ikkje så veldig mange innebygde funksjonar for deskriptiv statistikk. Men dei har eit sinnrikt system for å akkumulere data, og så kan eg sjølv rekne ut det eg treng.&lt;/p&gt;&#xA;&lt;p&gt;Det er satt av seks  dataregistre spesielt til dette:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Register&lt;/th&gt;&#xA;          &lt;th&gt;Innhald&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;R11&lt;/td&gt;&#xA;          &lt;td&gt;\(\Sum X_i\)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+    </item>
     <item>
       <title>Læring med programmerbar kalkulator</title>
       <link>https://kvammeselvik.github.io/hp_digest_5_learning/</link>
@@ -20,7 +34,7 @@
       <link>https://kvammeselvik.github.io/hp_digest_5_thank_you_beep/</link>
       <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
       <guid>https://kvammeselvik.github.io/hp_digest_5_thank_you_beep/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;XX2050.png&#34;&gt;Bilete av XX2050&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;Dette er ein tjuvkopi av ei novelle frå det amerikanske tidsskriftet (?) &amp;#34;HP Digest&amp;#34;, 1979. Forfattar er Gordon Dickson.&lt;/p&gt;&#xA;&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Thank you, Beep …!&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;In this story, written especially for the Digest, science-fiction writer Gordon Dickson takes us to the mid-21st century where we discover the amazing HP-XX2050, a handheld calculator with surprising capabilities. Dickson is the author of more than 150 short stories and thirty-three novels including SOLDIER, ASK NOT, winner of the World Science Fiction &amp;#34;Hugo&amp;#34; Award in 1965, CALL HIM LORD, winner of the Science Fiction Writers of America Nebula Award in 1966, and DRAGON AND THE GEORGE, winner of the 1976 August Derleth Award of the British Fantasy Society.&lt;/p&gt;</description>
+      <description>&lt;p width=&#34;100%&#34; height=&#34;100%&#34; class=&#34;border-2&#34; alt=&#34;Illustrasjon av den fiktive XX2050&#34; title=&#34;XX2050&#34;&gt;&lt;a href=&#34;.//XX2050.png&#34;&gt;Bilete av XX2050&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&#xA;Dette er ein tjuvkopi av ei novelle frå det amerikanske tidsskriftet (?) &amp;#34;HP Digest&amp;#34;, 1979. Forfattar er Gordon Dickson.&lt;/p&gt;&#xA;&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Thank you, Beep …!&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;In this story, written especially for the Digest, science-fiction writer Gordon Dickson takes us to the mid-21st century where we discover the amazing HP-XX2050, a handheld calculator with surprising capabilities. Dickson is the author of more than 150 short stories and thirty-three novels including SOLDIER, ASK NOT, winner of the World Science Fiction &amp;#34;Hugo&amp;#34; Award in 1965, CALL HIM LORD, winner of the Science Fiction Writers of America Nebula Award in 1966, and DRAGON AND THE GEORGE, winner of the 1976 August Derleth Award of the British Fantasy Society.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thank you, Beep …!</title>

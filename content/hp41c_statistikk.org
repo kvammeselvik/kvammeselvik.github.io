@@ -1,0 +1,16 @@
+#+TITLE: Statistikk på HP41C
+#+DATE: 2025-12-11
+#+hugo_categories: kalkulator
+#+HUGO_SECTION: posts
+#+hugo_draft: false
+#+hugo_tags: hp41 statistikk
+* Statistikk på HP41C
+** Innleiing
+I utgangspunktet har HP-kalkulatorane frå slutten av 70- og tidleg 80-tal ikkje så veldig mange innebygde funksjonar for deskriptiv statistikk. Men dei har eit sinnrikt system for å akkumulere data, og så kan eg sjølv rekne ut det eg treng.
+
+Det er satt av seks  dataregistre spesielt til dette:
+
+| Register | Innhald      |
+|----------+--------------|
+| R11      | \(\Sum X_i\) |
+|          |              |
