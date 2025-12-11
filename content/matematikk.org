@@ -20,3 +20,11 @@ Så altså: eg skal kunne skrive formlar som
 \[
 \Sigma_{i=0}^n X_i
 \]
+
+Men det ser ut som at eg ikkje kan ta forskjellen på "linjebaserte" formlar (som \(\Sigma_{i=1}^n X_i\)) og "frittståande" formlar:
+
+\[
+\displaystyle \Sigma_{i=1}^n X_i
+\]
+
+for gitt; eg må legge på =\displaystyle= for å få det til.

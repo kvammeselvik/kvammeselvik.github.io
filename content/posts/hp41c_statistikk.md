@@ -26,3 +26,15 @@ Det er satt av seks  dataregistre spesielt til dette:
 | R16      | \\(n\\)                     |
 
 No kan eg rekne ut dei ulike tinga eg treng ved å kombinere desse:
+
+
+### Utrekningar {#utrekningar}
+
+
+#### Gjennomsnitt {#gjennomsnitt}
+
+Formelen er \\(\overline{X} = \frac{1}{n}\Sigma X\_i\\), og det vert då
+
+`RCL 11`
+`RCL 16
+=/`

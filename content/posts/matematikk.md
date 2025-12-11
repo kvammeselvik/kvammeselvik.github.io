@@ -22,3 +22,11 @@ Så altså: eg skal kunne skrive formlar som
 \\[
 \Sigma\_{i=0}^n X\_i
 \\]
+
+Men det ser ut som at eg ikkje kan ta forskjellen på "linjebaserte" formlar (som \\(\Sigma\_{i=1}^n X\_i\\)) og "frittståande" formlar:
+
+\\[
+\displaystyle \Sigma\_{i=1}^n X\_i
+\\]
+
+for gitt; eg må legge på `\displaystyle` for å få det til.
