@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Kvamme/Selvik</title>
-    <link>https://kvammeselvik.github.io/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Kvamme/Selvik</description>
     <generator>Hugo</generator>
     <language>no-nn</language>
     <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kvammeselvik.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kalkulator</title>
-      <link>https://kvammeselvik.github.io/categories/kalkulator/</link>
+      <link>http://localhost:1313/categories/kalkulator/</link>
       <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://kvammeselvik.github.io/categories/kalkulator/</guid>
+      <guid>http://localhost:1313/categories/kalkulator/</guid>
       <description></description>
     </item>
     <item>
       <title>Skriving</title>
-      <link>https://kvammeselvik.github.io/categories/skriving/</link>
+      <link>http://localhost:1313/categories/skriving/</link>
       <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://kvammeselvik.github.io/categories/skriving/</guid>
+      <guid>http://localhost:1313/categories/skriving/</guid>
       <description></description>
     </item>
     <item>
       <title>Hobby</title>
-      <link>https://kvammeselvik.github.io/categories/hobby/</link>
+      <link>http://localhost:1313/categories/hobby/</link>
       <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://kvammeselvik.github.io/categories/hobby/</guid>
+      <guid>http://localhost:1313/categories/hobby/</guid>
       <description></description>
     </item>
     <item>
       <title>Undervising</title>
-      <link>https://kvammeselvik.github.io/categories/undervising/</link>
+      <link>http://localhost:1313/categories/undervising/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://kvammeselvik.github.io/categories/undervising/</guid>
+      <guid>http://localhost:1313/categories/undervising/</guid>
       <description></description>
     </item>
     <item>
       <title>Reference</title>
-      <link>https://kvammeselvik.github.io/categories/reference/</link>
+      <link>http://localhost:1313/categories/reference/</link>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://kvammeselvik.github.io/categories/reference/</guid>
+      <guid>http://localhost:1313/categories/reference/</guid>
       <description></description>
     </item>
     <item>
       <title>Matematikk</title>
-      <link>https://kvammeselvik.github.io/categories/matematikk/</link>
+      <link>http://localhost:1313/categories/matematikk/</link>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://kvammeselvik.github.io/categories/matematikk/</guid>
+      <guid>http://localhost:1313/categories/matematikk/</guid>
       <description></description>
     </item>
   </channel>

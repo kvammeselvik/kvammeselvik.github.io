@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Statistikk on Kvamme/Selvik</title>
-    <link>https://kvammeselvik.github.io/tags/statistikk/</link>
+    <link>http://localhost:1313/tags/statistikk/</link>
     <description>Recent content in Statistikk on Kvamme/Selvik</description>
     <generator>Hugo</generator>
     <language>no-nn</language>
     <lastBuildDate>Thu, 11 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://kvammeselvik.github.io/tags/statistikk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/statistikk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Statistikk på HP41C</title>
-      <link>https://kvammeselvik.github.io/posts/hp41c_statistikk/</link>
+      <link>http://localhost:1313/posts/hp41c_statistikk/</link>
       <pubDate>Thu, 11 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://kvammeselvik.github.io/posts/hp41c_statistikk/</guid>
-      <description>&lt;h2 id=&#34;statistikk-på-hp41c&#34;&gt;Statistikk på HP41C&lt;/h2&gt;&#xA;&lt;h3 id=&#34;innleiing&#34;&gt;Innleiing&lt;/h3&gt;&#xA;&lt;p&gt;I utgangspunktet har HP-kalkulatorane frå slutten av 70- og tidleg 80-tal ikkje så veldig mange innebygde funksjonar for deskriptiv statistikk. Men dei har eit sinnrikt system for å akkumulere data, og så kan eg sjølv rekne ut det eg treng.&lt;/p&gt;&#xA;&lt;p&gt;Det er satt av seks  dataregistre spesielt til dette:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Register&lt;/th&gt;&#xA;          &lt;th&gt;Innhald&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;R11&lt;/td&gt;&#xA;          &lt;td&gt;\(\Sum X_i\)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;          &lt;td&gt;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;</description>
+      <guid>http://localhost:1313/posts/hp41c_statistikk/</guid>
+      <description>&lt;h2 id=&#34;statistikk-på-hp41c&#34;&gt;Statistikk på HP41C&lt;/h2&gt;&#xA;&lt;h3 id=&#34;innleiing&#34;&gt;Innleiing&lt;/h3&gt;&#xA;&lt;p&gt;I utgangspunktet har HP-kalkulatorane frå slutten av 70- og tidleg 80-tal ikkje så veldig mange innebygde funksjonar for deskriptiv statistikk. Men dei har eit sinnrikt system for å akkumulere data, og så kan eg sjølv rekne ut det eg treng.&lt;/p&gt;&#xA;&lt;p&gt;Det er satt av seks  dataregistre spesielt til dette:&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Register&lt;/th&gt;&#xA;          &lt;th&gt;Innhald&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;R11&lt;/td&gt;&#xA;          &lt;td&gt;\(\Sigma X_i\)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;R12&lt;/td&gt;&#xA;          &lt;td&gt;\(\Sigma X_i^2\)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;R13&lt;/td&gt;&#xA;          &lt;td&gt;\(\Sigma Y_i\)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;R14&lt;/td&gt;&#xA;          &lt;td&gt;\(\Sigma Y_i^2\)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;R15&lt;/td&gt;&#xA;          &lt;td&gt;\(\Sigma X_i\cdot Y_i\)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;R16&lt;/td&gt;&#xA;          &lt;td&gt;\(n\)&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;No kan eg rekne ut dei ulike tinga eg treng ved å kombinere desse:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Skilsmisser og fødselsdato</title>
-      <link>https://kvammeselvik.github.io/skilsmisser/</link>
+      <link>http://localhost:1313/skilsmisser/</link>
       <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://kvammeselvik.github.io/skilsmisser/</guid>
+      <guid>http://localhost:1313/skilsmisser/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Skilsmisserate og fødselsdatoar&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;Denne teorien kom eg over på &lt;em&gt;Den sorte diamant&lt;/em&gt; i København, på utstillinga &amp;#34;&lt;a href=&#34;https://www.kb.dk/arrangementer/udstillinger/mellem-himmel-og-jord&#34;&gt;Mellem Himmel og Jord&lt;/a&gt;&amp;#34; - om magiens og overtruas historie.&#xA;Den går i korte trekk ut på at &lt;em&gt;skilsmisseraten er størst for ektepar der det er 90 dagar mellom fødselsdatoane&lt;/em&gt; til ektefellane. I diskusjonen vidare kaller eg avstanden mellom fødselsdatoar for &lt;em&gt;datodifferanse&lt;/em&gt;, og dersom eg skulle finne på å lage ein matematisk formeel som inneheld denne så vil symbolet vere \(D_d\).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Statistikk i ingeniørutdanning 0</title>
-      <link>https://kvammeselvik.github.io/statistikk_i_ingeni%C3%B8r_0/</link>
+      <link>http://localhost:1313/statistikk_i_ingeni%C3%B8r_0/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://kvammeselvik.github.io/statistikk_i_ingeni%C3%B8r_0/</guid>
+      <guid>http://localhost:1313/statistikk_i_ingeni%C3%B8r_0/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Innleiing&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;Dette innlegget er starten på ein diskusjon med meg sjølv om korleis (og ikkje minst &lt;em&gt;kva&lt;/em&gt;) vi skal undervise statistikk ved ingeniørutdanninga.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-2&#34;&gt;&#xA;Bakgrunn&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;Etter at den nye emneveggen vart innført har vi no fått eit emne på 5 stp som skal vere felles for &lt;em&gt;alle&lt;/em&gt; studieretningar, frå data til maskin via elektro.  Det seier seg sjølv at 5 stp ikkje er mykje, og vi må ta ein grundig vurdering av kva som er &lt;em&gt;nødvendig&lt;/em&gt; å ha med i pensum.&lt;/p&gt;</description>
     </item>
   </channel>

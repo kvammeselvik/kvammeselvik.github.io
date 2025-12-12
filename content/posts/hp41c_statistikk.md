@@ -30,9 +30,15 @@ No kan eg rekne ut dei ulike tinga eg treng ved å kombinere desse:
 
 ### Utrekningar {#utrekningar}
 
-| Funksjon           | Formel                                                   | Taster                                                     |
-|--------------------|----------------------------------------------------------|------------------------------------------------------------|
-| \\(\overline{X}\\) | \\(\frac{1}{n}\Sigma X\\)                                | `RCL 11, RCL 16, /`                                        |
-| \\(\overline{Y}\\) | \\(\frac{1}{n}\Sigma Y\\)                                | `RCL 13, RCL 16, /`                                        |
-| \\(S\_X\\)         | \\(\sqrt{\frac{\Sigma X^2-n\cdot\overline{X}^2}{n-1}}\\) | `RCL 12, RCL 11, X^2, RCL 16, /, -, RCL 16, 1, -, /, SQRT` |
-|                    |                                                          |                                                            |
+| Funksjon           | Formel                                                                           | Taster                                                             |
+|--------------------|----------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| \\(\overline{X}\\) | \\(\frac{1}{n}\Sigma X\\)                                                        | `RCL 11, RCL 16, /`                                                |
+| \\(\overline{Y}\\) | \\(\frac{1}{n}\Sigma Y\\)                                                        | `RCL 13, RCL 16, /`                                                |
+| \\(S\_X\\)         | \\(\sqrt{\frac{\Sigma X^2-n\cdot\overline{X}^2}{n-1}}\\)                         | `RCL 12, RCL 11, X^2, RCL 16, /, -, RCL 16, 1, -, /, SQRT, STO 17` |
+| \\(S\_Y\\)         | \\(\sqrt{\frac{\Sigma Y^2-n\cdot\overline{Y}^2}{n-1}}\\)                         | `RCL 14, RCL 13, X^2, RCL 16, /, -, RCL 16, 1, -, /, SQRT, STO 18` |
+| \\(S\_{XY}\\)      | \\(\frac{1}{n-1}\left(\Sigma X\cdot Y-\frac{1}{n}\Sigma X\cdot\Sigma Y\right)\\) | `RCL 15, RCL 11, RCL 13, *, RCL 16, /, -, RCL 16, 1, -, /, STO 19` |
+| \\(\rho\_{XY}\\)   | \\(\frac{S\_{XY}}{S\_X\cdot S\_Y}\\)                                             | `RCL 19, RCL 17, RCL 18, *, /, STO 20`                             |
+
+Her har eg utvida lista over registre for å lagre \\(S\_X\\), \\(S\_Y\\), \\(S\_{XY}\\) og \\(\rho\_{XY}\\).
+
+Komandoane i tabellen er lett å legge inn i eit program.

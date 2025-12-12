@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Matematikk på nettsider - Kvamme/Selvik</title>
@@ -15,7 +15,6 @@
 	
 
 	<link rel="shortcut icon" href="/favicon.ico">
-		
 		
 </head>
 <body class="body">
@@ -57,13 +56,21 @@
 			<h2 id="innleiing">Innleiing</h2>
 <p>Det er notorisk vanskeleg å skrive matematikk og tekst saman. Vanleg tekst er <em>eindimensjonal</em> i den forstand at teksten flyt i ei retning (langs tekstlina). At vi bryt teksten inn i separate liner gjer ingen ting; alle linene er like høge, så tekstbiletet vert uniformt og harmonisk. Ingen bokstavar / symbol / teikn går høgare enn dei andre, eller lågare enn dei andre.</p>
 <p>Når vi får inn ein matematisk formel vert alt litt annleis. Det er svært få matematiske uttrykk som held seg innanfor øvre og nedre grense for bokstavane. Berre sjå på dette: \(\frac{1}{2}\)x eller denne: \(\int_0^k f(x)dx\). Det eit godt typografisk verktøy (som \(\LaTeX\) gjer er å gje dei linene som treng det litt ekstra plass over og under, slik at ingen av dei matematiske formlane &ldquo;stanger&rdquo; borti kvarandre.</p>
-<p>Men det store problemet kjem når vi skal vise matematiske formlar på nettsider. Då må vi bruke JavaScriptet <a href="https://www.mathjax.org">MathJax</a>. Men det er notorisk vanskeleg å setje opp, ser det ut som. Eg har lest <a href="https://gohugo.io/content-management/mathematics/#engines">Hugos offisielle manual</a>, men det som viste seg var at trengte dette (kvar fekk eg den frå?):</p>
+<p>Men det store problemet kjem når vi skal vise matematiske formlar på nettsider. Då må vi bruke JavaScriptet <a href="https://www.mathjax.org">MathJax</a>. Men det er notorisk vanskeleg å setje opp, ser det ut som. Eg har lest <a href="https://gohugo.io/content-management/mathematics/#engines">Hugos offisielle manual</a>, og det hjalp ikkje. Så prøvde eg dette (kvar fekk eg det frå?):</p>
 <ol>
 <li>I temaet som eg nyttar (mainroad) er det ei fil <code>themes\mainroad\layouts\partials\mathjax.html</code>.</li>
 <li>I <code>config.toml</code> set eg parameteren <code>mathjax = true</code> og <code>mathjaxPath = https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js</code></li>
 </ol>
-<p>Dette fungerer ikkje. Men så byta eg <code>mathjaxPath</code> ut med <code>https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js</code> (som er den lenka <a href="https://www.mathjax.org/#gettingstarted">MathJax sjølv skriv om</a>). Og no fungerer det strålande. MathJax skriv at &ldquo;If you use the snippet above, you will not need to change the version number in the src attribute every time the version of MathJax changes.&rdquo; - det tolkar eg til at eg ikkje treng å gjere noko?  Uansett: det fungerer.</p>
-<p>Ny setning.</p>
+<p>Dette fungerer heller ikkje. Men så byta eg <code>mathjaxPath</code> ut med <code>https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js</code> (som er den lenka <a href="https://www.mathjax.org/#gettingstarted">MathJax sjølv skriv om</a>). Og no fungerer det strålande. MathJax skriv at &ldquo;If you use the snippet above, you will not need to change the version number in the src attribute every time the version of MathJax changes.&rdquo; - det tolkar eg til at eg ikkje treng å gjere noko?  Uansett: det fungerer.</p>
+<p>Så altså: eg skal kunne skrive formlar som
+\[
+\Sigma_{i=0}^n X_i
+\]</p>
+<p>Men det ser ut som at eg ikkje kan ta forskjellen på &ldquo;linjebaserte&rdquo; formlar (som \(\Sigma_{i=1}^n X_i\)) og &ldquo;frittståande&rdquo; formlar:</p>
+<p>\[
+\displaystyle \Sigma_{i=1}^n X_i
+\]</p>
+<p>for gitt; eg må legge på <code>\displaystyle</code> for å få det til.</p>
 
 		</div>
 	</article>
@@ -91,7 +98,7 @@
 	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
 		<input class="widget-search__field" type="search" placeholder="Search…" value="" name="q" aria-label="Search…">
 		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="https://kvammeselvik.github.io/">
+		<input type="hidden" name="sitesearch" value="http://localhost:1313/">
 	</form>
 </div>
 <div class="widget-recent widget">
