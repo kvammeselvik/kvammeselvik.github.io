@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Koding on Kvamme/Selvik</title>
-    <link>http://localhost:1313/tags/koding/</link>
+    <link>https://kvammeselvik.github.io/tags/koding/</link>
     <description>Recent content in Koding on Kvamme/Selvik</description>
     <generator>Hugo</generator>
     <language>no-nn</language>
     <lastBuildDate>Mon, 27 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/koding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kvammeselvik.github.io/tags/koding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Koding i Emacs - godt å hugse på</title>
-      <link>http://localhost:1313/koding_reglar/</link>
+      <link>https://kvammeselvik.github.io/koding_reglar/</link>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/koding_reglar/</guid>
+      <guid>https://kvammeselvik.github.io/koding_reglar/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Innleiing&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;Her samlar eg ein del nyttige ting om å skrive (og utføre) koding i Emacs.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-2&#34;&gt;&#xA;Oppsett&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;I oppsettet av Emacs må eg ha på plass Babel. Det installerer eg som alle andre pakker via &lt;code class=&#34;verbatim&#34;&gt;package-list-packages&lt;/code&gt; (leit etter &lt;code class=&#34;verbatim&#34;&gt;babel&lt;/code&gt; og &lt;code class=&#34;verbatim&#34;&gt;ob-ipython&lt;/code&gt;). Eg må også vite korleis eg skal få tak i Python-programmet (er det rett namn?); det er alltid litt krøkkete. Inntil vidare bruker eg denne kommandoen:&lt;/p&gt;&#xA;&lt;pre class=&#34;example&#34;&gt;&#xA;(setq org-babel-python-command &amp;#34;C:/Users/aasmu/AppData/Local/Programs/Python/Python313/python.exe&amp;#34;)&#xA;&lt;/pre&gt;&#xA;&lt;p&gt;&#xA;Og så må eg fortelje Emacs kva koder eg vil bruke:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Koding i Emacs</title>
-      <link>http://localhost:1313/koding/</link>
+      <link>https://kvammeselvik.github.io/koding/</link>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/koding/</guid>
+      <guid>https://kvammeselvik.github.io/koding/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Innleiing&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;Ein av dei kanskje aller største fordelane med å skrive tekstar i Emacs orgmode er at eg kan blande koding og tekst. Sjå til dømes på dette:&lt;/p&gt;&#xA;&lt;div class=&#34;src src-python&#34;&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;):&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;i&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;^2 = &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;, &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;i&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;^3 = &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;som gir resultatet &lt;/p&gt;&#xA;&lt;pre class=&#34;example&#34;&gt;&#xA;0^2 = 0, 0^3 = 0&#xA;1^2 = 1, 1^3 = 1&#xA;2^2 = 4, 2^3 = 8&#xA;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
   </channel>

@@ -2,59 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Skriving on Kvamme/Selvik</title>
-    <link>http://localhost:1313/categories/skriving/</link>
+    <link>https://kvammeselvik.github.io/categories/skriving/</link>
     <description>Recent content in Skriving on Kvamme/Selvik</description>
     <generator>Hugo</generator>
     <language>no-nn</language>
     <lastBuildDate>Tue, 09 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/skriving/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kvammeselvik.github.io/categories/skriving/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Læring med programmerbar kalkulator</title>
+      <link>https://kvammeselvik.github.io/posts/hp_digest_5_learning/</link>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://kvammeselvik.github.io/posts/hp_digest_5_learning/</guid>
+      <description>&lt;h2 id=&#34;læring-med-programmerbar-kalkulator&#34;&gt;Læring med programmerbar kalkulator&lt;/h2&gt;&#xA;&lt;p&gt;Dette er ein tjuvkopi av ein artikkel skrevet i 1979 for det amerikanske tidsskriftet (?) &amp;ldquo;HP Digest&amp;rdquo;, 1979. Forfattar er &lt;a href=&#34;https://prabook.com/web/john_joseph.wavrik/3537579&#34;&gt;John J. Wavrik&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;h3 id=&#34;how-programmable-calculators-can-help-kids-learn-dot&#34;&gt;How programmable calculators can help kids learn.&lt;/h3&gt;&#xA;&lt;p&gt;There are a variety of ways in which ble calculators can aid learning. Certainly on the high school or college level the ability to perform explicit computations, draw graphs, or apply numerical methods can make the subject of mathematics more understandable.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Thank you, Beep …!</title>
-      <link>http://localhost:1313/posts/hp_digest_5_thank_you_beep/</link>
+      <link>https://kvammeselvik.github.io/posts/hp_digest_5_thank_you_beep/</link>
       <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hp_digest_5_thank_you_beep/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://localhost:1313/ox-hugo/XX2050.png&#34;&gt;Bilete av XX2050&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Dette er ein tjuvkopi av ei novelle frå det amerikanske tidsskriftet (?) &amp;ldquo;HP Digest&amp;rdquo;, 1979. Forfattar er Gordon Dickson.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thank-you-beep-dot-dot-dot&#34;&gt;Thank you, Beep &amp;hellip;!&lt;/h2&gt;&#xA;&lt;p&gt;In this story, written especially for the Digest, science-fiction writer Gordon Dickson takes us to the mid-21st century where we discover the amazing HP-XX2050, a handheld calculator with surprising capabilities. Dickson is the author of more than 150 short stories and thirty-three novels including SOLDIER, ASK NOT, winner of the World Science Fiction &amp;ldquo;Hugo&amp;rdquo; Award in 1965, CALL HIM LORD, winner of the Science Fiction Writers of America Nebula Award in 1966, and DRAGON AND THE GEORGE, winner of the 1976 August Derleth Award of the British Fantasy Society.&lt;/p&gt;</description>
+      <guid>https://kvammeselvik.github.io/posts/hp_digest_5_thank_you_beep/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://kvammeselvik.github.io/ox-hugo/XX2050.png&#34;&gt;Bilete av XX2050&lt;/a&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Dette er ein tjuvkopi av ei novelle frå det amerikanske tidsskriftet (?) &amp;ldquo;HP Digest&amp;rdquo;, 1979. Forfattar er Gordon Dickson.&lt;/p&gt;&#xA;&lt;h2 id=&#34;thank-you-beep-dot-dot-dot&#34;&gt;Thank you, Beep &amp;hellip;!&lt;/h2&gt;&#xA;&lt;p&gt;In this story, written especially for the Digest, science-fiction writer Gordon Dickson takes us to the mid-21st century where we discover the amazing HP-XX2050, a handheld calculator with surprising capabilities. Dickson is the author of more than 150 short stories and thirty-three novels including SOLDIER, ASK NOT, winner of the World Science Fiction &amp;ldquo;Hugo&amp;rdquo; Award in 1965, CALL HIM LORD, winner of the Science Fiction Writers of America Nebula Award in 1966, and DRAGON AND THE GEORGE, winner of the 1976 August Derleth Award of the British Fantasy Society.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Test 2</title>
-      <link>http://localhost:1313/test2/</link>
+      <link>https://kvammeselvik.github.io/test2/</link>
       <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/test2/</guid>
+      <guid>https://kvammeselvik.github.io/test2/</guid>
       <description>&lt;p&gt;&#xA;Denne artikelen vert &lt;em&gt;ikkje&lt;/em&gt; publisert.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mal for blog-poster</title>
-      <link>http://localhost:1313/blog-mal/</link>
+      <link>https://kvammeselvik.github.io/blog-mal/</link>
       <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog-mal/</guid>
+      <guid>https://kvammeselvik.github.io/blog-mal/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Om det tekniske oppsettet for bloggen&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;Oppsettet av prosessen Emacs orgmode -&amp;gt; Hugo -&amp;gt; Github er ikkje heilt rett fram, men i prinsippet går det slik:&lt;/p&gt;&#xA;&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-2&#34;&gt;&#xA;Emacs&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;Eg må ha dette installert:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://orgmode.org&#34;&gt;orgmode&lt;/a&gt; (for skrivinga)&lt;/li&gt;&#xA;&lt;li&gt;ox-hugo (for eksporten til &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugos&lt;/a&gt; markdown-format)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-3&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-3&#34;&gt;&#xA;Hugo&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-3&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;Det lettaste er å installere det i WSL: &lt;code class=&#34;verbatim&#34;&gt;sudo apt install hugo&lt;/code&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-4&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-4&#34;&gt;&#xA;Github&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-4&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;Her var det flest problem, men det løyste seg til slutt. For mange kommandoar til å liste kort her.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Skrivereglar</title>
-      <link>http://localhost:1313/skrivereglar/</link>
+      <link>https://kvammeselvik.github.io/skrivereglar/</link>
       <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/skrivereglar/</guid>
+      <guid>https://kvammeselvik.github.io/skrivereglar/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Ulike skrivereglar i Orgmode&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-3&#34;&gt;&#xA;&lt;h3 id=&#34;headline-2&#34;&gt;&#xA;Front matter&#xA;&lt;/h3&gt;&#xA;&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-3&#34;&gt;&#xA;&lt;p&gt;Dette er kommandoar eg kan skrive i orgmode for å ein tilsvarande kommando i front matter i .md-fila.&lt;/p&gt;&#xA;&lt;table&gt;&#xA;&lt;thead&gt;&#xA;&lt;tr&gt;&#xA;&lt;th&gt;.md&lt;/th&gt;&#xA;&lt;th&gt;.org&lt;/th&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/thead&gt;&#xA;&lt;tbody&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;#+title: My New Post&lt;/td&gt;&#xA;&lt;td&gt;title = &amp;#34;My New Post&amp;#34;&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;#+date: 2025-10-27&lt;/td&gt;&#xA;&lt;td&gt;date = 2025-10-27&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;#+hugo_draft: true&lt;/td&gt;&#xA;&lt;td&gt;draft = true&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;tr&gt;&#xA;&lt;td&gt;#+hugo_tags: emacs, orgmode&lt;/td&gt;&#xA;&lt;td&gt;tags = [&amp;#34;emacs&amp;#34;, &amp;#34;orgmode&amp;#34;]&lt;/td&gt;&#xA;&lt;/tr&gt;&#xA;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Koding i Emacs - godt å hugse på</title>
-      <link>http://localhost:1313/koding_reglar/</link>
+      <link>https://kvammeselvik.github.io/koding_reglar/</link>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/koding_reglar/</guid>
+      <guid>https://kvammeselvik.github.io/koding_reglar/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Innleiing&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;Her samlar eg ein del nyttige ting om å skrive (og utføre) koding i Emacs.&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;div id=&#34;outline-container-headline-2&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-2&#34;&gt;&#xA;Oppsett&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-2&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;I oppsettet av Emacs må eg ha på plass Babel. Det installerer eg som alle andre pakker via &lt;code class=&#34;verbatim&#34;&gt;package-list-packages&lt;/code&gt; (leit etter &lt;code class=&#34;verbatim&#34;&gt;babel&lt;/code&gt; og &lt;code class=&#34;verbatim&#34;&gt;ob-ipython&lt;/code&gt;). Eg må også vite korleis eg skal få tak i Python-programmet (er det rett namn?); det er alltid litt krøkkete. Inntil vidare bruker eg denne kommandoen:&lt;/p&gt;&#xA;&lt;pre class=&#34;example&#34;&gt;&#xA;(setq org-babel-python-command &amp;#34;C:/Users/aasmu/AppData/Local/Programs/Python/Python313/python.exe&amp;#34;)&#xA;&lt;/pre&gt;&#xA;&lt;p&gt;&#xA;Og så må eg fortelje Emacs kva koder eg vil bruke:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Koding i Emacs</title>
-      <link>http://localhost:1313/koding/</link>
+      <link>https://kvammeselvik.github.io/koding/</link>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/koding/</guid>
+      <guid>https://kvammeselvik.github.io/koding/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Innleiing&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;Ein av dei kanskje aller største fordelane med å skrive tekstar i Emacs orgmode er at eg kan blande koding og tekst. Sjå til dømes på dette:&lt;/p&gt;&#xA;&lt;div class=&#34;src src-python&#34;&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;):&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;i&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;^2 = &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;, &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;i&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;^3 = &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;{&lt;/span&gt;i&lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;som gir resultatet &lt;/p&gt;&#xA;&lt;pre class=&#34;example&#34;&gt;&#xA;0^2 = 0, 0^3 = 0&#xA;1^2 = 1, 1^3 = 1&#xA;2^2 = 4, 2^3 = 8&#xA;&lt;/pre&gt;&#xA;&lt;/div&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>Matematikk på nettsider</title>
-      <link>http://localhost:1313/matematikk/</link>
+      <link>https://kvammeselvik.github.io/matematikk/</link>
       <pubDate>Sun, 26 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/matematikk/</guid>
+      <guid>https://kvammeselvik.github.io/matematikk/</guid>
       <description>&lt;div id=&#34;outline-container-headline-1&#34; class=&#34;outline-2&#34;&gt;&#xA;&lt;h2 id=&#34;headline-1&#34;&gt;&#xA;Innleiing&#xA;&lt;/h2&gt;&#xA;&lt;div id=&#34;outline-text-headline-1&#34; class=&#34;outline-text-2&#34;&gt;&#xA;&lt;p&gt;Det er notorisk vanskeleg å skrive matematikk og tekst saman. Vanleg tekst er &lt;em&gt;eindimensjonal&lt;/em&gt; i den forstand at teksten flyt i ei retning (langs tekstlina). At vi bryt teksten inn i separate liner gjer ingen ting; alle linene er like høge, så tekstbiletet vert uniformt og harmonisk. Ingen bokstavar / symbol / teikn går høgare enn dei andre, eller lågare enn dei andre.&lt;/p&gt;&#xA;&lt;p&gt;&#xA;Når vi får inn ein matematisk formel vert alt litt annleis. Det er svært få matematiske uttrykk som held seg innanfor øvre og nedre grense for bokstavane. Berre sjå på dette: \(\frac{1}{2}\)x eller denne: \(\int_0^k f(x)dx\). Det eit godt typografisk verktøy (som \(\LaTeX\) gjer er å gje dei linene som treng det litt ekstra plass over og under, slik at ingen av dei matematiske formlane &amp;#34;stanger&amp;#34; borti kvarandre. &lt;/p&gt;</description>
     </item>
   </channel>
